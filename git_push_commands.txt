@@ -1,0 +1,17 @@
+TLT TRADER'S DASHBOARD - GITHUB PUSH COMMANDS
+
+git init
+git lfs install
+git lfs track "*.sqlite"
+git add .
+git commit -m "Deploy TLT Trader dashboard"
+git branch -M main
+git remote add origin https://github.com/Analystshaik/YOUR-REPOSITORY-NAME.git
+git push -u origin main
+
+If the remote repo already has a README/initial commit:
+git push -u origin main --force-with-lease
+
+Verify:
+git remote -v
+git lfs ls-files
