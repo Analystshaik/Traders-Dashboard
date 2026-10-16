@@ -1,5 +1,3 @@
-streamlit>=1.41,<2
+ib-insync>=0.9.86
 pandas>=2.0
 numpy>=1.24
-pyarrow>=12
-plotly>=5.18

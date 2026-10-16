@@ -1,51 +1,61 @@
-# TLT Trader's Dashboard — Streamlit Cloud Package
+# TLT Trader — Automated Local EOD Pipeline v1.0
 
-Cloud-ready package based on Trader's Dashboard v1.8.
+This package is designed for your Windows PC to act as the nightly data/analysis engine.
 
-## Included logic
-- Daily POSITIVE_TLT stocks only
-- best_lag = 0
-- relationship score >= 35
-- 120D correlation >= 0.30
-- current TLT daily pivot
-- candlestick patterns allowed from pivot date minus 2 calendar days
-- candlestick wait/entry logic
-- strong Hammer rule: lower wick > 3x body => no confirmation required
-- Momentum(9) divergence analysis
-- most recently broken weekly support above entry as suggested exit
-- clickable internal daily candlestick chart page
-- Momentum(9) panel below the price chart
+## One-run workflow
 
-## Database
-Place the compact working DB at:
+1. Connect to IBKR TWS / IB Gateway.
+2. Read the ticker universe from your existing daily TLT relationship tables.
+3. Download recent Daily RTH bars.
+4. Upsert into `relationship_bars_day` and `tlt_daily_bars`.
+5. Recalculate the daily relationship rows used by the Trader Dashboard.
+6. Run your existing daily TLT pivot analyzer from `analysis_commands` in `config.json`.
+7. Validate the SQLite database.
+8. Copy the refreshed DB into your local GitHub/Streamlit cloud repo.
+9. Commit only when something changed and push to GitHub.
+10. Streamlit Cloud redeploys from the pushed commit.
 
-data/streamlit_market_data.sqlite
+## First-time setup
 
-or:
+```bat
+pip install -r requirements.txt
+```
 
-data/streamlit_data.sqlite
+Edit `config.json` and verify:
+- `local_database`
+- `cloud_repo`
+- IBKR port
+- your actual daily pivot analyzer path/command
 
-Expected tables include:
-- tlt_daily_pivots
-- relationship_bars_day or bars_day
-- spy_holdings_tlt_relationship_day
-- qqq_holdings_tlt_relationship_day
-- dow30_tlt_relationship_day
-- spdr11_tlt_relationship_day
+Then test manually:
 
-## Validate before pushing
-Run:
+```bat
+run_eod_refresh.bat
+```
 
-python validate_cloud_db.py
+After a successful test:
 
-Expected:
-- SQLite header
-- Integrity: ok
+```bat
+install_windows_task.bat
+```
 
-## GitHub / Git LFS
-Run the commands in git_push_commands.txt.
+Default schedule is Monday-Friday at 5:15 PM local Windows time.
 
-## Streamlit Community Cloud
-Deploy with:
-- Branch: main
-- Main file: app.py
+## Important
+
+The package deliberately does not replace your existing TLT pivot algorithm. Enable the existing analyzer in `analysis_commands` after pointing it at the working project that writes `tlt_daily_pivots`.
+
+TWS / IB Gateway must be running and API access enabled before the scheduled task starts.
+
+## Cloud Git repo prerequisites
+
+The `cloud_repo` should already be your local clone of the Trader Dashboard GitHub repo and should already have Git LFS configured for the SQLite database.
+
+Verify once:
+
+```bat
+git remote -v
+git lfs ls-files
+```
+
+Logs are written under `logs\`.

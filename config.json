@@ -1,0 +1,35 @@
+{
+  "local_database": "C:\\Keystone\\ibkr_production_data_engine_v2\\data\\ibkr_market_data.sqlite",
+  "cloud_repo": "C:\\Keystone\\Trading-Opportunity\\Cloud",
+  "cloud_database_relative": "data\\streamlit_market_data.sqlite",
+  "ibkr": {
+    "host": "127.0.0.1",
+    "port": 7497,
+    "client_id": 91,
+    "use_rth": true,
+    "duration": "10 D",
+    "bar_size": "1 day",
+    "what_to_show": "TRADES"
+  },
+  "relationship_tables": [
+    "spy_holdings_tlt_relationship_day",
+    "qqq_holdings_tlt_relationship_day",
+    "dow30_tlt_relationship_day",
+    "spdr11_tlt_relationship_day"
+  ],
+  "bars_table": "relationship_bars_day",
+  "tlt_bars_table": "tlt_daily_bars",
+  "reference_symbol": "TLT",
+  "analysis_commands": [
+    {
+      "name": "TLT daily pivot refresh",
+      "enabled": false,
+      "working_directory": "C:\\Keystone\\Weekly Pivots\\tlt_weekly_pivot_dashboard_v1_0",
+      "command": "python analyze_daily.py"
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit_prefix": "Auto EOD refresh"
+  }
+}

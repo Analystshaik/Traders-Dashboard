@@ -1,0 +1,1858 @@
+2026-10-16 07:33:08,069 | INFO | Universe size: 525
+2026-10-16 07:33:08,070 | INFO | Connecting to IBKR 127.0.0.1:7497 clientId=91
+2026-10-16 07:33:08,071 | INFO | Connecting to 127.0.0.1:7497 with clientId 91...
+2026-10-16 07:33:08,072 | INFO | Connected
+2026-10-16 07:33:08,105 | INFO | Logged on to server version 176
+2026-10-16 07:33:08,123 | INFO | API connection ready
+2026-10-16 07:33:08,128 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2026-10-16 07:33:08,128 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-10-16 07:33:08,129 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-10-16 07:33:08,129 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2026-10-16 07:33:08,130 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:jfarm
+2026-10-16 07:33:08,130 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2026-10-16 07:33:08,131 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:eufarm
+2026-10-16 07:33:08,131 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2026-10-16 07:33:08,131 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-10-16 07:33:08,132 | INFO | position: Position(account='DUO201927', contract=Stock(conId=10291, symbol='NKE', exchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, avgCost=62.953)
+2026-10-16 07:33:08,132 | INFO | position: Position(account='DUO201927', contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, avgCost=305.69875)
+2026-10-16 07:33:08,133 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2026-10-16 07:33:08,133 | INFO | position: Position(account='DUO201927', contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, avgCost=237.41795)
+2026-10-16 07:33:08,134 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2026-10-16 07:33:08,134 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-10-16 07:33:08,135 | INFO | position: Position(account='DUO201927', contract=Stock(conId=459113767, symbol='AI', exchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, avgCost=10.775)
+2026-10-16 07:33:08,135 | INFO | Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefnj
+2026-10-16 07:33:08,451 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=459113767, symbol='AI', right='0', primaryExchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, marketPrice=12.21000005, marketValue=12210.0, averageCost=10.775, unrealizedPNL=1435.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:33:08,452 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, marketPrice=1.4493884, marketValue=7246.94, averageCost=305.69875, unrealizedPNL=-8038.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:33:08,453 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.69667115, marketValue=696.67, averageCost=237.41795, unrealizedPNL=-1677.51, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:33:08,453 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=10291, symbol='NKE', right='0', primaryExchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, marketPrice=37.4599991, marketValue=9365.0, averageCost=62.953, unrealizedPNL=-6373.25, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:33:08,549 | INFO | Synchronization complete
+2026-10-16 07:33:08,549 | INFO | [1/525] A
+2026-10-16 07:33:09,349 | INFO | [2/525] AAPL
+2026-10-16 07:33:10,090 | INFO | [3/525] ABBV
+2026-10-16 07:33:10,922 | INFO | [4/525] ABNB
+2026-10-16 07:33:11,538 | INFO | [5/525] ABT
+2026-10-16 07:33:12,278 | INFO | [6/525] ACGL
+2026-10-16 07:33:12,882 | INFO | [7/525] ACN
+2026-10-16 07:33:13,531 | INFO | [8/525] ADBE
+2026-10-16 07:33:14,260 | INFO | [9/525] ADI
+2026-10-16 07:33:14,973 | INFO | [10/525] ADM
+2026-10-16 07:33:15,700 | INFO | [11/525] ADP
+2026-10-16 07:33:16,417 | INFO | [12/525] ADSK
+2026-10-16 07:33:17,065 | INFO | [13/525] AEE
+2026-10-16 07:33:17,792 | INFO | [14/525] AEP
+2026-10-16 07:33:18,535 | INFO | [15/525] AES
+2026-10-16 07:33:19,199 | INFO | [16/525] AFL
+2026-10-16 07:33:19,938 | INFO | [17/525] AIG
+2026-10-16 07:33:20,724 | INFO | [18/525] AIZ
+2026-10-16 07:33:21,462 | INFO | [19/525] AJG
+2026-10-16 07:33:22,201 | INFO | [20/525] AKAM
+2026-10-16 07:33:22,832 | INFO | [21/525] ALB
+2026-10-16 07:33:23,588 | INFO | [22/525] ALGN
+2026-10-16 07:33:24,239 | INFO | [23/525] ALL
+2026-10-16 07:33:24,994 | INFO | [24/525] ALLE
+2026-10-16 07:33:25,627 | INFO | [25/525] ALNY
+2026-10-16 07:33:26,258 | INFO | [26/525] AMAT
+2026-10-16 07:33:26,999 | INFO | [27/525] AMCR
+2026-10-16 07:33:27,585 | INFO | [28/525] AMD
+2026-10-16 07:33:28,187 | INFO | [29/525] AME
+2026-10-16 07:33:28,927 | INFO | [30/525] AMGN
+2026-10-16 07:33:29,625 | INFO | [31/525] AMP
+2026-10-16 07:33:30,432 | INFO | [32/525] AMT
+2026-10-16 07:33:31,123 | INFO | [33/525] AMZN
+2026-10-16 07:33:31,696 | INFO | [34/525] ANET
+2026-10-16 07:33:32,419 | INFO | [35/525] AON
+2026-10-16 07:33:33,204 | INFO | [36/525] AOS
+2026-10-16 07:33:33,957 | INFO | [37/525] APA
+2026-10-16 07:33:34,801 | INFO | [38/525] APD
+2026-10-16 07:33:35,522 | INFO | [39/525] APH
+2026-10-16 07:33:36,218 | INFO | [40/525] APO
+2026-10-16 07:33:36,865 | INFO | [41/525] APP
+2026-10-16 07:33:37,468 | INFO | [42/525] APTV
+2026-10-16 07:33:38,115 | INFO | [43/525] ARE
+2026-10-16 07:33:38,887 | INFO | [44/525] ARES
+2026-10-16 07:33:39,627 | INFO | [45/525] ARM
+2026-10-16 07:33:40,226 | INFO | [46/525] ASML
+2026-10-16 07:33:40,859 | INFO | [47/525] ATO
+2026-10-16 07:33:41,600 | INFO | [48/525] AVGO
+2026-10-16 07:33:42,222 | INFO | [49/525] AVY
+2026-10-16 07:33:43,013 | INFO | [50/525] AWK
+2026-10-16 07:33:43,661 | INFO | [51/525] AXON
+2026-10-16 07:33:44,311 | INFO | [52/525] AXP
+2026-10-16 07:33:45,066 | INFO | [53/525] AZO
+2026-10-16 07:33:45,684 | INFO | [54/525] BA
+2026-10-16 07:33:46,350 | INFO | [55/525] BAC
+2026-10-16 07:33:47,074 | INFO | [56/525] BALL
+2026-10-16 07:33:47,819 | INFO | [57/525] BAX
+2026-10-16 07:33:48,513 | INFO | [58/525] BBY
+2026-10-16 07:33:49,289 | INFO | [59/525] BDX
+2026-10-16 07:33:50,027 | INFO | [60/525] BE
+2026-10-16 07:33:50,646 | INFO | [61/525] BEN
+2026-10-16 07:33:51,358 | INFO | [62/525] BF.B
+2026-10-16 07:33:51,413 | ERROR | Error 200, reqId 125: No security definition has been found for the request, contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 07:33:51,413 | WARNING | Unknown contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 07:33:51,414 | ERROR | Download failed for BF.B: No security definition for BF.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BF.B
+2026-10-16 07:33:51,414 | INFO | [63/525] BG
+2026-10-16 07:33:52,133 | INFO | [64/525] BIIB
+2026-10-16 07:33:52,691 | INFO | [65/525] BKNG
+2026-10-16 07:33:53,291 | INFO | [66/525] BKR
+2026-10-16 07:33:54,161 | INFO | [67/525] BLK
+2026-10-16 07:33:54,889 | INFO | [68/525] BMY
+2026-10-16 07:33:55,667 | INFO | [69/525] BNY
+2026-10-16 07:33:56,367 | INFO | [70/525] BR
+2026-10-16 07:33:57,045 | INFO | [71/525] BRK.B
+2026-10-16 07:33:57,108 | ERROR | Error 200, reqId 142: No security definition has been found for the request, contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 07:33:57,109 | WARNING | Unknown contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 07:33:57,109 | ERROR | Download failed for BRK.B: No security definition for BRK.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BRK.B
+2026-10-16 07:33:57,110 | INFO | [72/525] BRO
+2026-10-16 07:33:57,837 | INFO | [73/525] BSX
+2026-10-16 07:33:58,470 | INFO | [74/525] BX
+2026-10-16 07:33:59,171 | INFO | [75/525] BXP
+2026-10-16 07:33:59,866 | INFO | [76/525] C
+2026-10-16 07:34:00,533 | INFO | [77/525] CAH
+2026-10-16 07:34:01,274 | INFO | [78/525] CARR
+2026-10-16 07:34:01,920 | INFO | [79/525] CASY
+2026-10-16 07:34:02,586 | INFO | [80/525] CAT
+2026-10-16 07:34:03,276 | INFO | [81/525] CB
+2026-10-16 07:34:04,004 | INFO | [82/525] CBOE
+2026-10-16 07:34:04,729 | INFO | [83/525] CBRE
+2026-10-16 07:34:05,389 | INFO | [84/525] CCEP
+2026-10-16 07:34:06,102 | INFO | [85/525] CCI
+2026-10-16 07:34:06,781 | INFO | [86/525] CCL
+2026-10-16 07:34:07,452 | INFO | [87/525] CDNS
+2026-10-16 07:34:08,099 | INFO | [88/525] CDW
+2026-10-16 07:34:08,781 | INFO | [89/525] CEG
+2026-10-16 07:34:09,474 | INFO | [90/525] CF
+2026-10-16 07:34:10,228 | INFO | [91/525] CFG
+2026-10-16 07:34:10,380 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=10291, symbol='NKE', right='0', primaryExchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, marketPrice=37.4599991, marketValue=9365.0, averageCost=62.953, unrealizedPNL=-6373.25, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:34:10,381 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=459113767, symbol='AI', right='0', primaryExchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, marketPrice=12.21000005, marketValue=12210.0, averageCost=10.775, unrealizedPNL=1435.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:34:10,382 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.69667115, marketValue=696.67, averageCost=237.41795, unrealizedPNL=-1677.51, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:34:10,907 | INFO | [92/525] CHD
+2026-10-16 07:34:11,645 | INFO | [93/525] CHRW
+2026-10-16 07:34:12,387 | INFO | [94/525] CHTR
+2026-10-16 07:34:13,006 | INFO | [95/525] CI
+2026-10-16 07:34:13,657 | INFO | [96/525] CIEN
+2026-10-16 07:34:14,316 | INFO | [97/525] CINF
+2026-10-16 07:34:14,996 | INFO | [98/525] CL
+2026-10-16 07:34:15,790 | INFO | [99/525] CLX
+2026-10-16 07:34:16,513 | INFO | [100/525] CMCSA
+2026-10-16 07:34:17,316 | INFO | [101/525] CME
+2026-10-16 07:34:18,063 | INFO | [102/525] CMG
+2026-10-16 07:34:18,696 | INFO | [103/525] CMI
+2026-10-16 07:34:19,380 | INFO | [104/525] CMS
+2026-10-16 07:34:20,107 | INFO | [105/525] CNC
+2026-10-16 07:34:20,677 | INFO | [106/525] CNP
+2026-10-16 07:34:21,390 | INFO | [107/525] COF
+2026-10-16 07:34:22,119 | INFO | [108/525] COHR
+2026-10-16 07:34:22,706 | INFO | [109/525] COIN
+2026-10-16 07:34:23,351 | INFO | [110/525] COO
+2026-10-16 07:34:23,988 | INFO | [111/525] COP
+2026-10-16 07:34:24,700 | INFO | [112/525] COR
+2026-10-16 07:34:25,428 | INFO | [113/525] COST
+2026-10-16 07:34:26,186 | INFO | [114/525] CPAY
+2026-10-16 07:34:26,805 | INFO | [115/525] CPRT
+2026-10-16 07:34:27,436 | INFO | [116/525] CPT
+2026-10-16 07:34:28,159 | INFO | [117/525] CRH
+2026-10-16 07:34:28,779 | INFO | [118/525] CRL
+2026-10-16 07:34:29,399 | INFO | [119/525] CRM
+2026-10-16 07:34:30,065 | INFO | [120/525] CRWD
+2026-10-16 07:34:30,713 | INFO | [121/525] CSCO
+2026-10-16 07:34:31,344 | INFO | [122/525] CSGP
+2026-10-16 07:34:31,967 | INFO | [123/525] CSX
+2026-10-16 07:34:32,728 | INFO | [124/525] CTAS
+2026-10-16 07:34:33,542 | INFO | [125/525] CTSH
+2026-10-16 07:34:34,194 | INFO | [126/525] CVNA
+2026-10-16 07:34:34,874 | INFO | [127/525] CVS
+2026-10-16 07:34:35,635 | INFO | [128/525] CVX
+2026-10-16 07:34:36,361 | INFO | [129/525] D
+2026-10-16 07:34:37,120 | INFO | [130/525] DAL
+2026-10-16 07:34:37,798 | INFO | [131/525] DASH
+2026-10-16 07:34:38,403 | INFO | [132/525] DD
+2026-10-16 07:34:39,256 | INFO | [133/525] DDOG
+2026-10-16 07:34:39,886 | INFO | [134/525] DE
+2026-10-16 07:34:40,627 | INFO | [135/525] DECK
+2026-10-16 07:34:41,231 | INFO | [136/525] DELL
+2026-10-16 07:34:41,830 | INFO | [137/525] DG
+2026-10-16 07:34:42,511 | INFO | [138/525] DGX
+2026-10-16 07:34:43,196 | INFO | [139/525] DHI
+2026-10-16 07:34:43,927 | INFO | [140/525] DHR
+2026-10-16 07:34:44,714 | INFO | [141/525] DIS
+2026-10-16 07:34:45,404 | INFO | [142/525] DLR
+2026-10-16 07:34:46,172 | INFO | [143/525] DLTR
+2026-10-16 07:34:46,806 | INFO | [144/525] DOC
+2026-10-16 07:34:47,659 | INFO | [145/525] DOV
+2026-10-16 07:34:48,352 | INFO | [146/525] DOW
+2026-10-16 07:34:48,985 | INFO | [147/525] DPZ
+2026-10-16 07:34:49,664 | INFO | [148/525] DRI
+2026-10-16 07:34:50,373 | INFO | [149/525] DTE
+2026-10-16 07:34:51,129 | INFO | [150/525] DUK
+2026-10-16 07:34:51,820 | INFO | [151/525] DVA
+2026-10-16 07:34:52,396 | INFO | [152/525] DVN
+2026-10-16 07:34:53,124 | INFO | [153/525] DXCM
+2026-10-16 07:34:53,758 | INFO | [154/525] EBAY
+2026-10-16 07:34:54,372 | INFO | [155/525] ECHO
+2026-10-16 07:34:54,991 | INFO | [156/525] ECL
+2026-10-16 07:34:55,748 | INFO | [157/525] ED
+2026-10-16 07:34:56,461 | INFO | [158/525] EFX
+2026-10-16 07:34:57,191 | INFO | [159/525] EG
+2026-10-16 07:34:57,888 | INFO | [160/525] EIX
+2026-10-16 07:34:58,598 | INFO | [161/525] EL
+2026-10-16 07:34:59,312 | INFO | [162/525] ELV
+2026-10-16 07:34:59,990 | INFO | [163/525] EME
+2026-10-16 07:35:00,805 | INFO | [164/525] EMR
+2026-10-16 07:35:01,622 | INFO | [165/525] EOG
+2026-10-16 07:35:02,378 | INFO | [166/525] EQIX
+2026-10-16 07:35:03,123 | INFO | [167/525] EQT
+2026-10-16 07:35:03,864 | INFO | [168/525] ERIE
+2026-10-16 07:35:04,514 | INFO | [169/525] ES
+2026-10-16 07:35:05,259 | INFO | [170/525] ESS
+2026-10-16 07:35:05,967 | INFO | [171/525] ETN
+2026-10-16 07:35:06,682 | INFO | [172/525] ETR
+2026-10-16 07:35:07,395 | INFO | [173/525] EVRG
+2026-10-16 07:35:08,248 | INFO | [174/525] EW
+2026-10-16 07:35:08,895 | INFO | [175/525] EXC
+2026-10-16 07:35:09,676 | INFO | [176/525] EXE
+2026-10-16 07:35:10,309 | INFO | [177/525] EXPD
+2026-10-16 07:35:10,983 | INFO | [178/525] EXPE
+2026-10-16 07:35:11,646 | INFO | [179/525] EXR
+2026-10-16 07:35:12,402 | INFO | [180/525] F
+2026-10-16 07:35:13,112 | INFO | [181/525] FANG
+2026-10-16 07:35:13,745 | INFO | [182/525] FAST
+2026-10-16 07:35:14,440 | INFO | [183/525] FCX
+2026-10-16 07:35:15,199 | INFO | [184/525] FDS
+2026-10-16 07:35:15,986 | INFO | [185/525] FDX
+2026-10-16 07:35:16,702 | INFO | [186/525] FE
+2026-10-16 07:35:17,429 | INFO | [187/525] FER
+2026-10-16 07:35:18,079 | INFO | [188/525] FERG
+2026-10-16 07:35:18,757 | INFO | [189/525] FFIV
+2026-10-16 07:35:19,358 | INFO | [190/525] FICO
+2026-10-16 07:35:20,034 | INFO | [191/525] FIS
+2026-10-16 07:35:20,758 | INFO | [192/525] FISV
+2026-10-16 07:35:21,700 | INFO | [193/525] FITB
+2026-10-16 07:35:22,488 | INFO | [194/525] FIX
+2026-10-16 07:35:23,212 | INFO | [195/525] FLEX
+2026-10-16 07:35:23,849 | INFO | [196/525] FOX
+2026-10-16 07:35:24,513 | INFO | [197/525] FOXA
+2026-10-16 07:35:25,225 | INFO | [198/525] FRT
+2026-10-16 07:35:25,973 | INFO | [199/525] FSLR
+2026-10-16 07:35:26,609 | INFO | [200/525] FTNT
+2026-10-16 07:35:27,255 | INFO | [201/525] FTV
+2026-10-16 07:35:27,919 | INFO | [202/525] GD
+2026-10-16 07:35:28,647 | INFO | [203/525] GDDY
+2026-10-16 07:35:29,250 | INFO | [204/525] GE
+2026-10-16 07:35:29,929 | INFO | [205/525] GEHC
+2026-10-16 07:35:30,604 | INFO | [206/525] GEN
+2026-10-16 07:35:31,238 | INFO | [207/525] GEV
+2026-10-16 07:35:31,912 | INFO | [208/525] GILD
+2026-10-16 07:35:32,562 | INFO | [209/525] GIS
+2026-10-16 07:35:33,302 | INFO | [210/525] GL
+2026-10-16 07:35:34,014 | INFO | [211/525] GLW
+2026-10-16 07:35:34,676 | INFO | [212/525] GM
+2026-10-16 07:35:35,403 | INFO | [213/525] GNRC
+2026-10-16 07:35:36,032 | INFO | [214/525] GOOG
+2026-10-16 07:35:36,679 | INFO | [215/525] GOOGL
+2026-10-16 07:35:37,298 | INFO | [216/525] GPC
+2026-10-16 07:35:38,053 | INFO | [217/525] GPN
+2026-10-16 07:35:38,749 | INFO | [218/525] GRMN
+2026-10-16 07:35:39,399 | INFO | [219/525] GS
+2026-10-16 07:35:40,216 | INFO | [220/525] GWW
+2026-10-16 07:35:40,944 | INFO | [221/525] HAL
+2026-10-16 07:35:41,686 | INFO | [222/525] HAS
+2026-10-16 07:35:42,416 | INFO | [223/525] HBAN
+2026-10-16 07:35:43,219 | INFO | [224/525] HCA
+2026-10-16 07:35:43,790 | INFO | [225/525] HD
+2026-10-16 07:35:44,519 | INFO | [226/525] HIG
+2026-10-16 07:35:45,247 | INFO | [227/525] HII
+2026-10-16 07:35:45,992 | INFO | [228/525] HLT
+2026-10-16 07:35:46,608 | INFO | [229/525] HON
+2026-10-16 07:35:47,534 | INFO | [230/525] HOOD
+2026-10-16 07:35:48,118 | INFO | [231/525] HPE
+2026-10-16 07:35:49,062 | INFO | [232/525] HPQ
+2026-10-16 07:35:49,868 | INFO | [233/525] HRL
+2026-10-16 07:35:50,653 | INFO | [234/525] HSIC
+2026-10-16 07:35:51,221 | INFO | [235/525] HST
+2026-10-16 07:35:51,946 | INFO | [236/525] HSY
+2026-10-16 07:35:52,677 | INFO | [237/525] HUBB
+2026-10-16 07:35:53,406 | INFO | [238/525] HUM
+2026-10-16 07:35:54,116 | INFO | [239/525] HWM
+2026-10-16 07:35:54,830 | INFO | [240/525] IBKR
+2026-10-16 07:35:55,522 | INFO | [241/525] IBM
+2026-10-16 07:35:56,342 | INFO | [242/525] ICE
+2026-10-16 07:35:56,976 | INFO | [243/525] IDXX
+2026-10-16 07:35:57,548 | INFO | [244/525] IEX
+2026-10-16 07:35:58,198 | INFO | [245/525] IFF
+2026-10-16 07:35:58,938 | INFO | [246/525] ILMN
+2026-10-16 07:35:59,524 | INFO | [247/525] INCY
+2026-10-16 07:36:00,097 | INFO | [248/525] INSM
+2026-10-16 07:36:00,819 | INFO | [249/525] INTC
+2026-10-16 07:36:01,530 | INFO | [250/525] INTU
+2026-10-16 07:36:02,164 | INFO | [251/525] INVH
+2026-10-16 07:36:02,877 | INFO | [252/525] IP
+2026-10-16 07:36:03,589 | INFO | [253/525] IQV
+2026-10-16 07:36:04,221 | INFO | [254/525] IR
+2026-10-16 07:36:04,898 | INFO | [255/525] IRM
+2026-10-16 07:36:05,706 | INFO | [256/525] ISRG
+2026-10-16 07:36:06,354 | INFO | [257/525] IT
+2026-10-16 07:36:06,990 | INFO | [258/525] ITW
+2026-10-16 07:36:07,686 | INFO | [259/525] IVZ
+2026-10-16 07:36:08,352 | INFO | [260/525] J
+2026-10-16 07:36:08,955 | INFO | [261/525] JBHT
+2026-10-16 07:36:09,682 | INFO | [262/525] JBL
+2026-10-16 07:36:10,424 | INFO | [263/525] JCI
+2026-10-16 07:36:11,199 | INFO | [264/525] JKHY
+2026-10-16 07:36:11,891 | INFO | [265/525] JNJ
+2026-10-16 07:36:12,601 | INFO | [266/525] JPM
+2026-10-16 07:36:13,327 | INFO | [267/525] KDP
+2026-10-16 07:36:13,952 | INFO | [268/525] KEY
+2026-10-16 07:36:14,777 | INFO | [269/525] KEYS
+2026-10-16 07:36:15,390 | INFO | [270/525] KHC
+2026-10-16 07:36:16,082 | INFO | [271/525] KIM
+2026-10-16 07:36:16,819 | INFO | [272/525] KKR
+2026-10-16 07:36:17,483 | INFO | [273/525] KLAC
+2026-10-16 07:36:18,340 | INFO | [274/525] KMB
+2026-10-16 07:36:18,989 | INFO | [275/525] KMI
+2026-10-16 07:36:19,666 | INFO | [276/525] KO
+2026-10-16 07:36:20,392 | INFO | [277/525] KR
+2026-10-16 07:36:21,123 | INFO | [278/525] KVUE
+2026-10-16 07:36:21,752 | INFO | [279/525] L
+2026-10-16 07:36:22,457 | INFO | [280/525] LDOS
+2026-10-16 07:36:23,103 | INFO | [281/525] LEN
+2026-10-16 07:36:23,781 | INFO | [282/525] LH
+2026-10-16 07:36:24,381 | INFO | [283/525] LHX
+2026-10-16 07:36:25,171 | INFO | [284/525] LII
+2026-10-16 07:36:25,903 | INFO | [285/525] LIN
+2026-10-16 07:36:26,633 | INFO | [286/525] LITE
+2026-10-16 07:36:27,219 | INFO | [287/525] LLY
+2026-10-16 07:36:27,946 | INFO | [288/525] LMT
+2026-10-16 07:36:28,627 | INFO | [289/525] LNT
+2026-10-16 07:36:29,421 | INFO | [290/525] LOW
+2026-10-16 07:36:30,181 | INFO | [291/525] LRCX
+2026-10-16 07:36:30,860 | INFO | [292/525] LULU
+2026-10-16 07:36:31,419 | INFO | [293/525] LUV
+2026-10-16 07:36:32,178 | INFO | [294/525] LVS
+2026-10-16 07:36:32,839 | INFO | [295/525] LYB
+2026-10-16 07:36:33,516 | INFO | [296/525] LYV
+2026-10-16 07:36:34,133 | INFO | [297/525] MA
+2026-10-16 07:36:34,920 | INFO | [298/525] MAA
+2026-10-16 07:36:35,695 | INFO | [299/525] MAR
+2026-10-16 07:36:36,358 | INFO | [300/525] MAS
+2026-10-16 07:36:37,058 | INFO | [301/525] MCD
+2026-10-16 07:36:37,770 | INFO | [302/525] MCHP
+2026-10-16 07:36:38,496 | INFO | [303/525] MCK
+2026-10-16 07:36:39,177 | INFO | [304/525] MCO
+2026-10-16 07:36:39,937 | INFO | [305/525] MDLZ
+2026-10-16 07:36:40,617 | INFO | [306/525] MDT
+2026-10-16 07:36:41,284 | INFO | [307/525] MELI
+2026-10-16 07:36:41,874 | INFO | [308/525] MET
+2026-10-16 07:36:42,545 | INFO | [309/525] META
+2026-10-16 07:36:43,124 | INFO | [310/525] MGM
+2026-10-16 07:36:43,679 | INFO | [311/525] MKC
+2026-10-16 07:36:44,375 | INFO | [312/525] MLM
+2026-10-16 07:36:45,024 | INFO | [313/525] MMM
+2026-10-16 07:36:45,780 | INFO | [314/525] MNST
+2026-10-16 07:36:46,324 | INFO | [315/525] MO
+2026-10-16 07:36:47,004 | INFO | [316/525] MOS
+2026-10-16 07:36:47,684 | INFO | [317/525] MPC
+2026-10-16 07:36:48,365 | INFO | [318/525] MPWR
+2026-10-16 07:36:49,002 | INFO | [319/525] MRK
+2026-10-16 07:36:49,773 | INFO | [320/525] MRNA
+2026-10-16 07:36:50,342 | INFO | [321/525] MRSH
+2026-10-16 07:36:51,021 | INFO | [322/525] MRVL
+2026-10-16 07:36:51,656 | INFO | [323/525] MS
+2026-10-16 07:36:52,418 | INFO | [324/525] MSCI
+2026-10-16 07:36:53,190 | INFO | [325/525] MSFT
+2026-10-16 07:36:53,916 | INFO | [326/525] MSI
+2026-10-16 07:36:54,536 | INFO | [327/525] MSTR
+2026-10-16 07:36:55,213 | INFO | [328/525] MTB
+2026-10-16 07:36:55,924 | INFO | [329/525] MTD
+2026-10-16 07:36:56,531 | INFO | [330/525] MU
+2026-10-16 07:36:57,164 | INFO | [331/525] NCLH
+2026-10-16 07:36:57,736 | INFO | [332/525] NDAQ
+2026-10-16 07:36:58,398 | INFO | [333/525] NDSN
+2026-10-16 07:36:59,155 | INFO | [334/525] NEE
+2026-10-16 07:36:59,957 | INFO | [335/525] NEM
+2026-10-16 07:37:00,651 | INFO | [336/525] NFLX
+2026-10-16 07:37:01,258 | INFO | [337/525] NI
+2026-10-16 07:37:01,938 | INFO | [338/525] NKE
+2026-10-16 07:37:02,614 | INFO | [339/525] NOC
+2026-10-16 07:37:03,326 | INFO | [340/525] NOW
+2026-10-16 07:37:03,956 | INFO | [341/525] NRG
+2026-10-16 07:37:04,711 | INFO | [342/525] NSC
+2026-10-16 07:37:05,439 | INFO | [343/525] NTAP
+2026-10-16 07:37:06,071 | INFO | [344/525] NTRS
+2026-10-16 07:37:06,815 | INFO | [345/525] NUE
+2026-10-16 07:37:07,541 | INFO | [346/525] NVDA
+2026-10-16 07:37:08,158 | INFO | [347/525] NVR
+2026-10-16 07:37:08,776 | INFO | [348/525] NWS
+2026-10-16 07:37:09,348 | INFO | [349/525] NWSA
+2026-10-16 07:37:09,982 | INFO | [350/525] NXPI
+2026-10-16 07:37:10,524 | INFO | [351/525] O
+2026-10-16 07:37:10,525 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.69667115, marketValue=696.67, averageCost=237.41795, unrealizedPNL=-1677.51, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:37:11,448 | INFO | [352/525] ODFL
+2026-10-16 07:37:12,130 | INFO | [353/525] OKE
+2026-10-16 07:37:13,101 | INFO | [354/525] OMC
+2026-10-16 07:37:13,810 | INFO | [355/525] ON
+2026-10-16 07:37:14,415 | INFO | [356/525] ORCL
+2026-10-16 07:37:15,123 | INFO | [357/525] ORLY
+2026-10-16 07:37:15,865 | INFO | [358/525] OTIS
+2026-10-16 07:37:16,513 | INFO | [359/525] OXY
+2026-10-16 07:37:17,253 | INFO | [360/525] P
+2026-10-16 07:37:17,921 | INFO | [361/525] PANW
+2026-10-16 07:37:18,508 | INFO | [362/525] PAYX
+2026-10-16 07:37:19,237 | INFO | [363/525] PCAR
+2026-10-16 07:37:19,960 | INFO | [364/525] PCG
+2026-10-16 07:37:20,590 | INFO | [365/525] PDD
+2026-10-16 07:37:21,179 | INFO | [366/525] PEG
+2026-10-16 07:37:22,042 | INFO | [367/525] PEP
+2026-10-16 07:37:22,722 | INFO | [368/525] PFE
+2026-10-16 07:37:23,559 | INFO | [369/525] PFG
+2026-10-16 07:37:24,226 | INFO | [370/525] PG
+2026-10-16 07:37:24,952 | INFO | [371/525] PGR
+2026-10-16 07:37:25,678 | INFO | [372/525] PH
+2026-10-16 07:37:26,327 | INFO | [373/525] PHM
+2026-10-16 07:37:27,021 | INFO | [374/525] PKG
+2026-10-16 07:37:27,788 | INFO | [375/525] PLD
+2026-10-16 07:37:28,574 | INFO | [376/525] PLTR
+2026-10-16 07:37:29,224 | INFO | [377/525] PM
+2026-10-16 07:37:30,196 | INFO | [378/525] PNC
+2026-10-16 07:37:31,199 | INFO | [379/525] PNR
+2026-10-16 07:37:31,924 | INFO | [380/525] PNW
+2026-10-16 07:37:32,667 | INFO | [381/525] PODD
+2026-10-16 07:37:33,336 | INFO | [382/525] PPG
+2026-10-16 07:37:34,163 | INFO | [383/525] PPL
+2026-10-16 07:37:34,854 | INFO | [384/525] PRU
+2026-10-16 07:37:35,514 | INFO | [385/525] PSA
+2026-10-16 07:37:36,342 | INFO | [386/525] PSX
+2026-10-16 07:37:36,953 | INFO | [387/525] PTC
+2026-10-16 07:37:37,555 | INFO | [388/525] PWR
+2026-10-16 07:37:38,170 | INFO | [389/525] PYPL
+2026-10-16 07:37:38,788 | INFO | [390/525] Q
+2026-10-16 07:37:39,393 | INFO | [391/525] QCOM
+2026-10-16 07:37:40,086 | INFO | [392/525] RCL
+2026-10-16 07:37:40,705 | INFO | [393/525] RDDT
+2026-10-16 07:37:41,320 | INFO | [394/525] REG
+2026-10-16 07:37:42,063 | INFO | [395/525] REGN
+2026-10-16 07:37:42,759 | INFO | [396/525] RF
+2026-10-16 07:37:43,610 | INFO | [397/525] RJF
+2026-10-16 07:37:44,401 | INFO | [398/525] RL
+2026-10-16 07:37:45,236 | INFO | [399/525] RMD
+2026-10-16 07:37:45,962 | INFO | [400/525] ROK
+2026-10-16 07:37:46,878 | INFO | [401/525] ROL
+2026-10-16 07:37:47,610 | INFO | [402/525] ROP
+2026-10-16 07:37:48,412 | INFO | [403/525] ROST
+2026-10-16 07:37:49,154 | INFO | [404/525] RSG
+2026-10-16 07:37:50,066 | INFO | [405/525] RTX
+2026-10-16 07:37:50,900 | INFO | [406/525] RVTY
+2026-10-16 07:37:51,627 | INFO | [407/525] SBAC
+2026-10-16 07:37:52,322 | INFO | [408/525] SBUX
+2026-10-16 07:37:52,985 | INFO | [409/525] SCHW
+2026-10-16 07:37:53,621 | INFO | [410/525] SHOP
+2026-10-16 07:37:54,225 | INFO | [411/525] SHW
+2026-10-16 07:37:54,920 | INFO | [412/525] SJM
+2026-10-16 07:37:55,597 | INFO | [413/525] SKYD
+2026-10-16 07:37:56,357 | INFO | [414/525] SLB
+2026-10-16 07:37:57,097 | INFO | [415/525] SMCI
+2026-10-16 07:37:57,714 | INFO | [416/525] SNA
+2026-10-16 07:37:58,549 | INFO | [417/525] SNDK
+2026-10-16 07:37:59,167 | INFO | [418/525] SNPS
+2026-10-16 07:37:59,845 | INFO | [419/525] SO
+2026-10-16 07:38:00,601 | INFO | [420/525] SOLV
+2026-10-16 07:38:01,147 | INFO | [421/525] SPG
+2026-10-16 07:38:01,907 | INFO | [422/525] SPGI
+2026-10-16 07:38:02,600 | INFO | [423/525] SRE
+2026-10-16 07:38:03,293 | INFO | [424/525] STE
+2026-10-16 07:38:03,956 | INFO | [425/525] STLD
+2026-10-16 07:38:04,612 | INFO | [426/525] STT
+2026-10-16 07:38:05,336 | INFO | [427/525] STX
+2026-10-16 07:38:06,077 | INFO | [428/525] STZ
+2026-10-16 07:38:06,692 | INFO | [429/525] SW
+2026-10-16 07:38:07,390 | INFO | [430/525] SWK
+2026-10-16 07:38:08,082 | INFO | [431/525] SWKS
+2026-10-16 07:38:08,751 | INFO | [432/525] SYF
+2026-10-16 07:38:09,410 | INFO | [433/525] SYK
+2026-10-16 07:38:10,074 | INFO | [434/525] SYY
+2026-10-16 07:38:10,719 | INFO | [435/525] T
+2026-10-16 07:38:11,414 | INFO | [436/525] TDG
+2026-10-16 07:38:11,999 | INFO | [437/525] TDY
+2026-10-16 07:38:12,608 | INFO | [438/525] TECH
+2026-10-16 07:38:13,269 | INFO | [439/525] TEL
+2026-10-16 07:38:13,929 | INFO | [440/525] TER
+2026-10-16 07:38:14,576 | INFO | [441/525] TFC
+2026-10-16 07:38:15,296 | INFO | [442/525] TGT
+2026-10-16 07:38:16,111 | INFO | [443/525] TJX
+2026-10-16 07:38:16,802 | INFO | [444/525] TKO
+2026-10-16 07:38:17,494 | INFO | [445/525] TLT
+2026-10-16 07:38:18,142 | ERROR | Download failed for TLT: table tlt_daily_bars has no column named source
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 337, in main
+    upsert_bars(con, CFG["tlt_bars_table"], df)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 144, in upsert_bars
+    con.executemany(sql, list(df.itertuples(index=False, name=None)))
+sqlite3.OperationalError: table tlt_daily_bars has no column named source
+2026-10-16 07:38:18,142 | INFO | [446/525] TMO
+2026-10-16 07:38:18,763 | INFO | [447/525] TMUS
+2026-10-16 07:38:19,349 | INFO | [448/525] TPL
+2026-10-16 07:38:19,985 | INFO | [449/525] TPR
+2026-10-16 07:38:20,913 | INFO | [450/525] TRGP
+2026-10-16 07:38:22,548 | INFO | [451/525] TRI
+2026-10-16 07:38:23,305 | INFO | [452/525] TRMB
+2026-10-16 07:38:23,950 | INFO | [453/525] TROW
+2026-10-16 07:38:24,837 | INFO | [454/525] TRV
+2026-10-16 07:38:25,576 | INFO | [455/525] TSCO
+2026-10-16 07:38:26,320 | INFO | [456/525] TSLA
+2026-10-16 07:38:26,954 | INFO | [457/525] TSN
+2026-10-16 07:38:27,686 | INFO | [458/525] TT
+2026-10-16 07:38:28,445 | INFO | [459/525] TTWO
+2026-10-16 07:38:29,126 | INFO | [460/525] TWLO
+2026-10-16 07:38:29,758 | INFO | [461/525] TXN
+2026-10-16 07:38:30,499 | INFO | [462/525] TXT
+2026-10-16 07:38:31,175 | INFO | [463/525] TYL
+2026-10-16 07:38:31,765 | INFO | [464/525] UAL
+2026-10-16 07:38:32,428 | INFO | [465/525] UBER
+2026-10-16 07:38:33,063 | INFO | [466/525] UDR
+2026-10-16 07:38:33,835 | INFO | [467/525] UHS
+2026-10-16 07:38:34,532 | INFO | [468/525] ULTA
+2026-10-16 07:38:35,244 | INFO | [469/525] UNH
+2026-10-16 07:38:35,929 | INFO | [470/525] UNP
+2026-10-16 07:38:36,691 | INFO | [471/525] UPS
+2026-10-16 07:38:37,404 | INFO | [472/525] URI
+2026-10-16 07:38:38,006 | INFO | [473/525] USB
+2026-10-16 07:38:38,747 | INFO | [474/525] V
+2026-10-16 07:38:39,488 | INFO | [475/525] VEEV
+2026-10-16 07:38:40,110 | INFO | [476/525] VICI
+2026-10-16 07:38:40,698 | INFO | [477/525] VLO
+2026-10-16 07:38:41,408 | INFO | [478/525] VLTO
+2026-10-16 07:38:42,024 | INFO | [479/525] VMC
+2026-10-16 07:38:42,950 | INFO | [480/525] VMRK
+2026-10-16 07:38:43,647 | INFO | [481/525] VRSK
+2026-10-16 07:38:44,279 | INFO | [482/525] VRSN
+2026-10-16 07:38:44,942 | INFO | [483/525] VRT
+2026-10-16 07:38:45,592 | INFO | [484/525] VRTX
+2026-10-16 07:38:46,270 | INFO | [485/525] VST
+2026-10-16 07:38:46,919 | INFO | [486/525] VTR
+2026-10-16 07:38:47,693 | INFO | [487/525] VTRS
+2026-10-16 07:38:48,313 | INFO | [488/525] VZ
+2026-10-16 07:38:49,038 | INFO | [489/525] WAB
+2026-10-16 07:38:49,873 | INFO | [490/525] WAT
+2026-10-16 07:38:50,458 | INFO | [491/525] WBD
+2026-10-16 07:38:50,506 | ERROR | Error 200, reqId 981: No security definition has been found for the request, contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 07:38:50,506 | WARNING | Unknown contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 07:38:50,507 | ERROR | Download failed for WBD: No security definition for WBD
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for WBD
+2026-10-16 07:38:50,508 | INFO | [492/525] WDAY
+2026-10-16 07:38:51,062 | INFO | [493/525] WDC
+2026-10-16 07:38:51,728 | INFO | [494/525] WEC
+2026-10-16 07:38:52,451 | INFO | [495/525] WELL
+2026-10-16 07:38:53,297 | INFO | [496/525] WFC
+2026-10-16 07:38:54,050 | INFO | [497/525] WM
+2026-10-16 07:38:54,791 | INFO | [498/525] WMB
+2026-10-16 07:38:55,517 | INFO | [499/525] WMT
+2026-10-16 07:38:56,273 | INFO | [500/525] WRB
+2026-10-16 07:38:57,029 | INFO | [501/525] WSM
+2026-10-16 07:38:57,768 | INFO | [502/525] WST
+2026-10-16 07:38:58,541 | INFO | [503/525] WTW
+2026-10-16 07:38:59,295 | INFO | [504/525] WY
+2026-10-16 07:39:00,007 | INFO | [505/525] WYNN
+2026-10-16 07:39:00,642 | INFO | [506/525] XEL
+2026-10-16 07:39:01,397 | INFO | [507/525] XLB
+2026-10-16 07:39:02,047 | INFO | [508/525] XLC
+2026-10-16 07:39:02,637 | INFO | [509/525] XLE
+2026-10-16 07:39:03,393 | INFO | [510/525] XLF
+2026-10-16 07:39:04,075 | INFO | [511/525] XLI
+2026-10-16 07:39:04,775 | INFO | [512/525] XLK
+2026-10-16 07:39:05,517 | INFO | [513/525] XLP
+2026-10-16 07:39:06,271 | INFO | [514/525] XLRE
+2026-10-16 07:39:06,977 | INFO | [515/525] XLU
+2026-10-16 07:39:07,716 | INFO | [516/525] XLV
+2026-10-16 07:39:08,455 | INFO | [517/525] XLY
+2026-10-16 07:39:09,196 | INFO | [518/525] XOM
+2026-10-16 07:39:10,096 | INFO | [519/525] XYL
+2026-10-16 07:39:10,776 | INFO | [520/525] XYZ
+2026-10-16 07:39:11,375 | INFO | [521/525] YUM
+2026-10-16 07:39:12,101 | INFO | [522/525] ZBH
+2026-10-16 07:39:12,766 | INFO | [523/525] ZBRA
+2026-10-16 07:39:13,368 | INFO | [524/525] ZS
+2026-10-16 07:39:14,033 | INFO | [525/525] ZTS
+2026-10-16 07:39:14,682 | INFO | Disconnecting from 127.0.0.1:7497, 69.7 kB sent in 1055 messages, 1.04 MB received in 2247 messages, session time 367 s.
+2026-10-16 07:39:14,682 | INFO | Disconnecting
+2026-10-16 07:39:15,578 | ERROR | EOD automation failed
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 358, in <module>
+    main()
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 344, in main
+    refresh_relationships(con, universes)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 258, in refresh_relationships
+    tlt = load_symbol_bars(con, CFG["bars_table"], CFG["reference_symbol"], 320)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 162, in load_symbol_bars
+    df["bar_date"] = pd.to_datetime(df["bar_date"])
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 1072, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 469, in _array_strptime_with_fallback
+    result, tz_out = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "pandas/_libs/tslibs/strptime.pyx", line 501, in pandas._libs.tslibs.strptime.array_strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 451, in pandas._libs.tslibs.strptime.array_strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 583, in pandas._libs.tslibs.strptime._parse_with_format
+ValueError: time data "2026-10-15" doesn't match format "%Y%m%d", at position 197. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2026-10-16 07:47:28,144 | INFO | Universe size: 525
+2026-10-16 07:47:28,145 | INFO | Connecting to IBKR 127.0.0.1:7497 clientId=91
+2026-10-16 07:47:28,146 | INFO | Connecting to 127.0.0.1:7497 with clientId 91...
+2026-10-16 07:47:28,147 | INFO | Connected
+2026-10-16 07:47:28,149 | INFO | Logged on to server version 176
+2026-10-16 07:47:28,161 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2026-10-16 07:47:28,161 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-10-16 07:47:28,162 | INFO | API connection ready
+2026-10-16 07:47:28,163 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-10-16 07:47:28,164 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2026-10-16 07:47:28,165 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:jfarm
+2026-10-16 07:47:28,166 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2026-10-16 07:47:28,166 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:eufarm
+2026-10-16 07:47:28,166 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2026-10-16 07:47:28,167 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-10-16 07:47:28,167 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2026-10-16 07:47:28,168 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2026-10-16 07:47:28,168 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-10-16 07:47:28,168 | INFO | Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefnj
+2026-10-16 07:47:28,169 | INFO | position: Position(account='DUO201927', contract=Stock(conId=10291, symbol='NKE', exchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, avgCost=62.953)
+2026-10-16 07:47:28,169 | INFO | position: Position(account='DUO201927', contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, avgCost=305.69875)
+2026-10-16 07:47:28,170 | INFO | position: Position(account='DUO201927', contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, avgCost=237.41795)
+2026-10-16 07:47:28,170 | INFO | position: Position(account='DUO201927', contract=Stock(conId=459113767, symbol='AI', exchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, avgCost=10.775)
+2026-10-16 07:47:28,488 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=459113767, symbol='AI', right='0', primaryExchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, marketPrice=12.19999885, marketValue=12200.0, averageCost=10.775, unrealizedPNL=1425.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:47:28,489 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, marketPrice=1.44402065, marketValue=7220.1, averageCost=305.69875, unrealizedPNL=-8064.83, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:47:28,490 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.69667115, marketValue=696.67, averageCost=237.41795, unrealizedPNL=-1677.51, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:47:28,491 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=10291, symbol='NKE', right='0', primaryExchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, marketPrice=37.45000075, marketValue=9362.5, averageCost=62.953, unrealizedPNL=-6375.75, realizedPNL=0.0, account='DUO201927')
+2026-10-16 07:47:28,581 | INFO | Synchronization complete
+2026-10-16 07:47:28,582 | INFO | [1/525] A
+2026-10-16 07:47:29,050 | INFO | [2/525] AAPL
+2026-10-16 07:47:29,544 | INFO | [3/525] ABBV
+2026-10-16 07:47:29,973 | INFO | [4/525] ABNB
+2026-10-16 07:47:30,421 | INFO | [5/525] ABT
+2026-10-16 07:47:30,853 | INFO | [6/525] ACGL
+2026-10-16 07:47:31,256 | INFO | [7/525] ACN
+2026-10-16 07:47:31,672 | INFO | [8/525] ADBE
+2026-10-16 07:47:32,104 | INFO | [9/525] ADI
+2026-10-16 07:47:32,538 | INFO | [10/525] ADM
+2026-10-16 07:47:32,955 | INFO | [11/525] ADP
+2026-10-16 07:47:33,375 | INFO | [12/525] ADSK
+2026-10-16 07:47:33,808 | INFO | [13/525] AEE
+2026-10-16 07:47:34,238 | INFO | [14/525] AEP
+2026-10-16 07:47:34,699 | INFO | [15/525] AES
+2026-10-16 07:47:35,226 | INFO | [16/525] AFL
+2026-10-16 07:47:35,672 | INFO | [17/525] AIG
+2026-10-16 07:47:36,131 | INFO | [18/525] AIZ
+2026-10-16 07:47:36,628 | INFO | [19/525] AJG
+2026-10-16 07:47:37,076 | INFO | [20/525] AKAM
+2026-10-16 07:47:37,522 | INFO | [21/525] ALB
+2026-10-16 07:47:37,986 | INFO | [22/525] ALGN
+2026-10-16 07:47:38,432 | INFO | [23/525] ALL
+2026-10-16 07:47:38,863 | INFO | [24/525] ALLE
+2026-10-16 07:47:39,284 | INFO | [25/525] ALNY
+2026-10-16 07:47:39,792 | INFO | [26/525] AMAT
+2026-10-16 07:47:40,213 | INFO | [27/525] AMCR
+2026-10-16 07:47:40,643 | INFO | [28/525] AMD
+2026-10-16 07:47:41,094 | INFO | [29/525] AME
+2026-10-16 07:47:41,513 | INFO | [30/525] AMGN
+2026-10-16 07:47:41,949 | INFO | [31/525] AMP
+2026-10-16 07:47:42,369 | INFO | [32/525] AMT
+2026-10-16 07:47:42,800 | INFO | [33/525] AMZN
+2026-10-16 07:47:43,231 | INFO | [34/525] ANET
+2026-10-16 07:47:43,647 | INFO | [35/525] AON
+2026-10-16 07:47:44,091 | INFO | [36/525] AOS
+2026-10-16 07:47:44,551 | INFO | [37/525] APA
+2026-10-16 07:47:44,982 | INFO | [38/525] APD
+2026-10-16 07:47:45,413 | INFO | [39/525] APH
+2026-10-16 07:47:45,858 | INFO | [40/525] APO
+2026-10-16 07:47:46,307 | INFO | [41/525] APP
+2026-10-16 07:47:46,737 | INFO | [42/525] APTV
+2026-10-16 07:47:47,166 | INFO | [43/525] ARE
+2026-10-16 07:47:47,600 | INFO | [44/525] ARES
+2026-10-16 07:47:48,000 | INFO | [45/525] ARM
+2026-10-16 07:47:48,386 | INFO | [46/525] ASML
+2026-10-16 07:47:48,802 | INFO | [47/525] ATO
+2026-10-16 07:47:49,202 | INFO | [48/525] AVGO
+2026-10-16 07:47:49,619 | INFO | [49/525] AVY
+2026-10-16 07:47:50,051 | INFO | [50/525] AWK
+2026-10-16 07:47:50,451 | INFO | [51/525] AXON
+2026-10-16 07:47:50,881 | INFO | [52/525] AXP
+2026-10-16 07:47:51,314 | INFO | [53/525] AZO
+2026-10-16 07:47:51,749 | INFO | [54/525] BA
+2026-10-16 07:47:52,197 | INFO | [55/525] BAC
+2026-10-16 07:47:52,629 | INFO | [56/525] BALL
+2026-10-16 07:47:53,047 | INFO | [57/525] BAX
+2026-10-16 07:47:53,464 | INFO | [58/525] BBY
+2026-10-16 07:47:53,897 | INFO | [59/525] BDX
+2026-10-16 07:47:54,329 | INFO | [60/525] BE
+2026-10-16 07:47:54,742 | INFO | [61/525] BEN
+2026-10-16 07:47:55,162 | INFO | [62/525] BF.B
+2026-10-16 07:47:55,203 | ERROR | Error 200, reqId 125: No security definition has been found for the request, contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 07:47:55,204 | WARNING | Unknown contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 07:47:55,205 | ERROR | Download failed for BF.B: No security definition for BF.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BF.B
+2026-10-16 07:47:55,206 | INFO | [63/525] BG
+2026-10-16 07:47:55,626 | INFO | [64/525] BIIB
+2026-10-16 07:47:56,139 | INFO | [65/525] BKNG
+2026-10-16 07:47:56,634 | INFO | [66/525] BKR
+2026-10-16 07:47:57,082 | INFO | [67/525] BLK
+2026-10-16 07:47:57,546 | INFO | [68/525] BMY
+2026-10-16 07:47:57,992 | INFO | [69/525] BNY
+2026-10-16 07:47:58,397 | INFO | [70/525] BR
+2026-10-16 07:47:58,827 | INFO | [71/525] BRK.B
+2026-10-16 07:47:58,874 | ERROR | Error 200, reqId 142: No security definition has been found for the request, contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 07:47:58,874 | WARNING | Unknown contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 07:47:58,875 | ERROR | Download failed for BRK.B: No security definition for BRK.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BRK.B
+2026-10-16 07:47:58,875 | INFO | [72/525] BRO
+2026-10-16 07:47:59,291 | INFO | [73/525] BSX
+2026-10-16 07:47:59,813 | INFO | [74/525] BX
+2026-10-16 07:48:00,276 | INFO | [75/525] BXP
+2026-10-16 07:48:00,723 | INFO | [76/525] C
+2026-10-16 07:48:01,188 | INFO | [77/525] CAH
+2026-10-16 07:48:01,603 | INFO | [78/525] CARR
+2026-10-16 07:48:02,033 | INFO | [79/525] CASY
+2026-10-16 07:48:02,447 | INFO | [80/525] CAT
+2026-10-16 07:48:02,882 | INFO | [81/525] CB
+2026-10-16 07:48:03,315 | INFO | [82/525] CBOE
+2026-10-16 07:48:03,733 | INFO | [83/525] CBRE
+2026-10-16 07:48:04,167 | INFO | [84/525] CCEP
+2026-10-16 07:48:04,614 | INFO | [85/525] CCI
+2026-10-16 07:48:05,125 | INFO | [86/525] CCL
+2026-10-16 07:48:05,575 | INFO | [87/525] CDNS
+2026-10-16 07:48:06,007 | INFO | [88/525] CDW
+2026-10-16 07:48:06,485 | INFO | [89/525] CEG
+2026-10-16 07:48:06,919 | INFO | [90/525] CF
+2026-10-16 07:48:07,369 | INFO | [91/525] CFG
+2026-10-16 07:48:07,876 | INFO | [92/525] CHD
+2026-10-16 07:48:08,353 | INFO | [93/525] CHRW
+2026-10-16 07:48:08,813 | INFO | [94/525] CHTR
+2026-10-16 07:48:09,280 | INFO | [95/525] CI
+2026-10-16 07:48:09,776 | INFO | [96/525] CIEN
+2026-10-16 07:48:10,194 | INFO | [97/525] CINF
+2026-10-16 07:48:10,654 | INFO | [98/525] CL
+2026-10-16 07:48:11,085 | INFO | [99/525] CLX
+2026-10-16 07:48:11,504 | INFO | [100/525] CMCSA
+2026-10-16 07:48:11,925 | INFO | [101/525] CME
+2026-10-16 07:48:12,359 | INFO | [102/525] CMG
+2026-10-16 07:48:12,787 | INFO | [103/525] CMI
+2026-10-16 07:48:13,231 | INFO | [104/525] CMS
+2026-10-16 07:48:13,678 | INFO | [105/525] CNC
+2026-10-16 07:48:14,155 | INFO | [106/525] CNP
+2026-10-16 07:48:14,630 | INFO | [107/525] COF
+2026-10-16 07:48:15,124 | INFO | [108/525] COHR
+2026-10-16 07:48:15,556 | INFO | [109/525] COIN
+2026-10-16 07:48:16,004 | INFO | [110/525] COO
+2026-10-16 07:48:16,439 | INFO | [111/525] COP
+2026-10-16 07:48:16,890 | INFO | [112/525] COR
+2026-10-16 07:48:17,322 | INFO | [113/525] COST
+2026-10-16 07:48:17,739 | INFO | [114/525] CPAY
+2026-10-16 07:48:18,187 | INFO | [115/525] CPRT
+2026-10-16 07:48:18,618 | INFO | [116/525] CPT
+2026-10-16 07:48:19,067 | INFO | [117/525] CRH
+2026-10-16 07:48:19,512 | INFO | [118/525] CRL
+2026-10-16 07:48:19,927 | INFO | [119/525] CRM
+2026-10-16 07:48:20,358 | INFO | [120/525] CRWD
+2026-10-16 07:48:20,792 | INFO | [121/525] CSCO
+2026-10-16 07:48:21,225 | INFO | [122/525] CSGP
+2026-10-16 07:48:21,658 | INFO | [123/525] CSX
+2026-10-16 07:48:22,107 | INFO | [124/525] CTAS
+2026-10-16 07:48:22,556 | INFO | [125/525] CTSH
+2026-10-16 07:48:23,010 | INFO | [126/525] CVNA
+2026-10-16 07:48:23,425 | INFO | [127/525] CVS
+2026-10-16 07:48:23,870 | INFO | [128/525] CVX
+2026-10-16 07:48:24,301 | INFO | [129/525] D
+2026-10-16 07:48:24,765 | INFO | [130/525] DAL
+2026-10-16 07:48:25,200 | INFO | [131/525] DASH
+2026-10-16 07:48:25,636 | INFO | [132/525] DD
+2026-10-16 07:48:26,084 | INFO | [133/525] DDOG
+2026-10-16 07:48:26,531 | INFO | [134/525] DE
+2026-10-16 07:48:26,980 | INFO | [135/525] DECK
+2026-10-16 07:48:27,411 | INFO | [136/525] DELL
+2026-10-16 07:48:27,829 | INFO | [137/525] DG
+2026-10-16 07:48:28,257 | INFO | [138/525] DGX
+2026-10-16 07:48:28,669 | INFO | [139/525] DHI
+2026-10-16 07:48:29,119 | INFO | [140/525] DHR
+2026-10-16 07:48:29,563 | INFO | [141/525] DIS
+2026-10-16 07:48:29,992 | INFO | [142/525] DLR
+2026-10-16 07:48:30,411 | INFO | [143/525] DLTR
+2026-10-16 07:48:30,829 | INFO | [144/525] DOC
+2026-10-16 07:48:31,247 | INFO | [145/525] DOV
+2026-10-16 07:48:31,663 | INFO | [146/525] DOW
+2026-10-16 07:48:32,235 | INFO | [147/525] DPZ
+2026-10-16 07:48:32,651 | INFO | [148/525] DRI
+2026-10-16 07:48:33,083 | INFO | [149/525] DTE
+2026-10-16 07:48:33,487 | INFO | [150/525] DUK
+2026-10-16 07:48:33,923 | INFO | [151/525] DVA
+2026-10-16 07:48:34,343 | INFO | [152/525] DVN
+2026-10-16 07:48:34,824 | INFO | [153/525] DXCM
+2026-10-16 07:48:35,364 | INFO | [154/525] EBAY
+2026-10-16 07:48:35,785 | INFO | [155/525] ECHO
+2026-10-16 07:48:36,249 | INFO | [156/525] ECL
+2026-10-16 07:48:36,701 | INFO | [157/525] ED
+2026-10-16 07:48:37,181 | INFO | [158/525] EFX
+2026-10-16 07:48:37,597 | INFO | [159/525] EG
+2026-10-16 07:48:38,018 | INFO | [160/525] EIX
+2026-10-16 07:48:38,436 | INFO | [161/525] EL
+2026-10-16 07:48:38,836 | INFO | [162/525] ELV
+2026-10-16 07:48:39,256 | INFO | [163/525] EME
+2026-10-16 07:48:39,747 | INFO | [164/525] EMR
+2026-10-16 07:48:40,192 | INFO | [165/525] EOG
+2026-10-16 07:48:40,640 | INFO | [166/525] EQIX
+2026-10-16 07:48:41,087 | INFO | [167/525] EQT
+2026-10-16 07:48:41,504 | INFO | [168/525] ERIE
+2026-10-16 07:48:41,921 | INFO | [169/525] ES
+2026-10-16 07:48:42,371 | INFO | [170/525] ESS
+2026-10-16 07:48:42,818 | INFO | [171/525] ETN
+2026-10-16 07:48:43,248 | INFO | [172/525] ETR
+2026-10-16 07:48:43,692 | INFO | [173/525] EVRG
+2026-10-16 07:48:44,111 | INFO | [174/525] EW
+2026-10-16 07:48:44,528 | INFO | [175/525] EXC
+2026-10-16 07:48:44,978 | INFO | [176/525] EXE
+2026-10-16 07:48:45,427 | INFO | [177/525] EXPD
+2026-10-16 07:48:45,877 | INFO | [178/525] EXPE
+2026-10-16 07:48:46,409 | INFO | [179/525] EXR
+2026-10-16 07:48:46,841 | INFO | [180/525] F
+2026-10-16 07:48:47,275 | INFO | [181/525] FANG
+2026-10-16 07:48:47,690 | INFO | [182/525] FAST
+2026-10-16 07:48:48,091 | INFO | [183/525] FCX
+2026-10-16 07:48:48,541 | INFO | [184/525] FDS
+2026-10-16 07:48:48,938 | INFO | [185/525] FDX
+2026-10-16 07:48:49,384 | INFO | [186/525] FE
+2026-10-16 07:48:49,894 | INFO | [187/525] FER
+2026-10-16 07:48:50,310 | INFO | [188/525] FERG
+2026-10-16 07:48:50,711 | INFO | [189/525] FFIV
+2026-10-16 07:48:51,157 | INFO | [190/525] FICO
+2026-10-16 07:48:51,589 | INFO | [191/525] FIS
+2026-10-16 07:48:52,008 | INFO | [192/525] FISV
+2026-10-16 07:48:52,517 | INFO | [193/525] FITB
+2026-10-16 07:48:52,934 | INFO | [194/525] FIX
+2026-10-16 07:48:53,352 | INFO | [195/525] FLEX
+2026-10-16 07:48:53,783 | INFO | [196/525] FOX
+2026-10-16 07:48:54,184 | INFO | [197/525] FOXA
+2026-10-16 07:48:54,603 | INFO | [198/525] FRT
+2026-10-16 07:48:55,021 | INFO | [199/525] FSLR
+2026-10-16 07:48:55,470 | INFO | [200/525] FTNT
+2026-10-16 07:48:55,902 | INFO | [201/525] FTV
+2026-10-16 07:48:56,353 | INFO | [202/525] GD
+2026-10-16 07:48:56,768 | INFO | [203/525] GDDY
+2026-10-16 07:48:57,197 | INFO | [204/525] GE
+2026-10-16 07:48:57,614 | INFO | [205/525] GEHC
+2026-10-16 07:48:58,044 | INFO | [206/525] GEN
+2026-10-16 07:48:58,462 | INFO | [207/525] GEV
+2026-10-16 07:48:58,909 | INFO | [208/525] GILD
+2026-10-16 07:48:59,399 | INFO | [209/525] GIS
+2026-10-16 07:48:59,918 | INFO | [210/525] GL
+2026-10-16 07:49:00,359 | INFO | [211/525] GLW
+2026-10-16 07:49:00,801 | INFO | [212/525] GM
+2026-10-16 07:49:01,275 | INFO | [213/525] GNRC
+2026-10-16 07:49:01,709 | INFO | [214/525] GOOG
+2026-10-16 07:49:02,155 | INFO | [215/525] GOOGL
+2026-10-16 07:49:02,573 | INFO | [216/525] GPC
+2026-10-16 07:49:03,037 | INFO | [217/525] GPN
+2026-10-16 07:49:03,500 | INFO | [218/525] GRMN
+2026-10-16 07:49:03,931 | INFO | [219/525] GS
+2026-10-16 07:49:04,428 | INFO | [220/525] GWW
+2026-10-16 07:49:04,966 | INFO | [221/525] HAL
+2026-10-16 07:49:05,458 | INFO | [222/525] HAS
+2026-10-16 07:49:06,121 | INFO | [223/525] HBAN
+2026-10-16 07:49:06,579 | INFO | [224/525] HCA
+2026-10-16 07:49:07,058 | INFO | [225/525] HD
+2026-10-16 07:49:07,473 | INFO | [226/525] HIG
+2026-10-16 07:49:07,891 | INFO | [227/525] HII
+2026-10-16 07:49:08,335 | INFO | [228/525] HLT
+2026-10-16 07:49:08,749 | INFO | [229/525] HON
+2026-10-16 07:49:09,196 | INFO | [230/525] HOOD
+2026-10-16 07:49:09,673 | INFO | [231/525] HPE
+2026-10-16 07:49:10,105 | INFO | [232/525] HPQ
+2026-10-16 07:49:10,663 | INFO | [233/525] HRL
+2026-10-16 07:49:11,114 | INFO | [234/525] HSIC
+2026-10-16 07:49:11,560 | INFO | [235/525] HST
+2026-10-16 07:49:11,993 | INFO | [236/525] HSY
+2026-10-16 07:49:12,410 | INFO | [237/525] HUBB
+2026-10-16 07:49:12,860 | INFO | [238/525] HUM
+2026-10-16 07:49:13,292 | INFO | [239/525] HWM
+2026-10-16 07:49:13,776 | INFO | [240/525] IBKR
+2026-10-16 07:49:14,315 | INFO | [241/525] IBM
+2026-10-16 07:49:14,746 | INFO | [242/525] ICE
+2026-10-16 07:49:15,147 | INFO | [243/525] IDXX
+2026-10-16 07:49:15,598 | INFO | [244/525] IEX
+2026-10-16 07:49:16,013 | INFO | [245/525] IFF
+2026-10-16 07:49:16,538 | INFO | [246/525] ILMN
+2026-10-16 07:49:16,984 | INFO | [247/525] INCY
+2026-10-16 07:49:17,401 | INFO | [248/525] INSM
+2026-10-16 07:49:17,791 | INFO | [249/525] INTC
+2026-10-16 07:49:18,207 | INFO | [250/525] INTU
+2026-10-16 07:49:18,640 | INFO | [251/525] INVH
+2026-10-16 07:49:19,073 | INFO | [252/525] IP
+2026-10-16 07:49:19,510 | INFO | [253/525] IQV
+2026-10-16 07:49:19,941 | INFO | [254/525] IR
+2026-10-16 07:49:20,387 | INFO | [255/525] IRM
+2026-10-16 07:49:20,831 | INFO | [256/525] ISRG
+2026-10-16 07:49:21,247 | INFO | [257/525] IT
+2026-10-16 07:49:21,665 | INFO | [258/525] ITW
+2026-10-16 07:49:22,069 | INFO | [259/525] IVZ
+2026-10-16 07:49:22,528 | INFO | [260/525] J
+2026-10-16 07:49:22,973 | INFO | [261/525] JBHT
+2026-10-16 07:49:23,404 | INFO | [262/525] JBL
+2026-10-16 07:49:23,836 | INFO | [263/525] JCI
+2026-10-16 07:49:24,255 | INFO | [264/525] JKHY
+2026-10-16 07:49:24,712 | INFO | [265/525] JNJ
+2026-10-16 07:49:25,183 | INFO | [266/525] JPM
+2026-10-16 07:49:25,613 | INFO | [267/525] KDP
+2026-10-16 07:49:26,056 | INFO | [268/525] KEY
+2026-10-16 07:49:26,543 | INFO | [269/525] KEYS
+2026-10-16 07:49:26,996 | INFO | [270/525] KHC
+2026-10-16 07:49:27,640 | INFO | [271/525] KIM
+2026-10-16 07:49:28,150 | INFO | [272/525] KKR
+2026-10-16 07:49:28,655 | INFO | [273/525] KLAC
+2026-10-16 07:49:29,065 | INFO | [274/525] KMB
+2026-10-16 07:49:29,494 | INFO | [275/525] KMI
+2026-10-16 07:49:29,911 | INFO | [276/525] KO
+2026-10-16 07:49:30,344 | INFO | [277/525] KR
+2026-10-16 07:49:30,775 | INFO | [278/525] KVUE
+2026-10-16 07:49:31,205 | INFO | [279/525] L
+2026-10-16 07:49:31,654 | INFO | [280/525] LDOS
+2026-10-16 07:49:32,164 | INFO | [281/525] LEN
+2026-10-16 07:49:32,598 | INFO | [282/525] LH
+2026-10-16 07:49:33,031 | INFO | [283/525] LHX
+2026-10-16 07:49:33,479 | INFO | [284/525] LII
+2026-10-16 07:49:33,884 | INFO | [285/525] LIN
+2026-10-16 07:49:34,329 | INFO | [286/525] LITE
+2026-10-16 07:49:34,747 | INFO | [287/525] LLY
+2026-10-16 07:49:35,207 | INFO | [288/525] LMT
+2026-10-16 07:49:35,638 | INFO | [289/525] LNT
+2026-10-16 07:49:36,083 | INFO | [290/525] LOW
+2026-10-16 07:49:36,513 | INFO | [291/525] LRCX
+2026-10-16 07:49:36,927 | INFO | [292/525] LULU
+2026-10-16 07:49:37,346 | INFO | [293/525] LUV
+2026-10-16 07:49:37,763 | INFO | [294/525] LVS
+2026-10-16 07:49:38,214 | INFO | [295/525] LYB
+2026-10-16 07:49:38,658 | INFO | [296/525] LYV
+2026-10-16 07:49:39,046 | INFO | [297/525] MA
+2026-10-16 07:49:39,496 | INFO | [298/525] MAA
+2026-10-16 07:49:39,916 | INFO | [299/525] MAR
+2026-10-16 07:49:40,346 | INFO | [300/525] MAS
+2026-10-16 07:49:40,820 | INFO | [301/525] MCD
+2026-10-16 07:49:41,328 | INFO | [302/525] MCHP
+2026-10-16 07:49:41,729 | INFO | [303/525] MCK
+2026-10-16 07:49:42,146 | INFO | [304/525] MCO
+2026-10-16 07:49:42,551 | INFO | [305/525] MDLZ
+2026-10-16 07:49:42,965 | INFO | [306/525] MDT
+2026-10-16 07:49:43,382 | INFO | [307/525] MELI
+2026-10-16 07:49:43,828 | INFO | [308/525] MET
+2026-10-16 07:49:44,245 | INFO | [309/525] META
+2026-10-16 07:49:44,738 | INFO | [310/525] MGM
+2026-10-16 07:49:45,170 | INFO | [311/525] MKC
+2026-10-16 07:49:45,634 | INFO | [312/525] MLM
+2026-10-16 07:49:46,215 | INFO | [313/525] MMM
+2026-10-16 07:49:46,650 | INFO | [314/525] MNST
+2026-10-16 07:49:47,097 | INFO | [315/525] MO
+2026-10-16 07:49:47,499 | INFO | [316/525] MOS
+2026-10-16 07:49:47,934 | INFO | [317/525] MPC
+2026-10-16 07:49:48,350 | INFO | [318/525] MPWR
+2026-10-16 07:49:48,779 | INFO | [319/525] MRK
+2026-10-16 07:49:49,196 | INFO | [320/525] MRNA
+2026-10-16 07:49:49,597 | INFO | [321/525] MRSH
+2026-10-16 07:49:50,124 | INFO | [322/525] MRVL
+2026-10-16 07:49:50,555 | INFO | [323/525] MS
+2026-10-16 07:49:50,958 | INFO | [324/525] MSCI
+2026-10-16 07:49:51,402 | INFO | [325/525] MSFT
+2026-10-16 07:49:51,805 | INFO | [326/525] MSI
+2026-10-16 07:49:52,240 | INFO | [327/525] MSTR
+2026-10-16 07:49:52,640 | INFO | [328/525] MTB
+2026-10-16 07:49:53,042 | INFO | [329/525] MTD
+2026-10-16 07:49:53,477 | INFO | [330/525] MU
+2026-10-16 07:49:53,863 | INFO | [331/525] NCLH
+2026-10-16 07:49:54,280 | INFO | [332/525] NDAQ
+2026-10-16 07:49:54,698 | INFO | [333/525] NDSN
+2026-10-16 07:49:55,102 | INFO | [334/525] NEE
+2026-10-16 07:49:55,534 | INFO | [335/525] NEM
+2026-10-16 07:49:56,164 | INFO | [336/525] NFLX
+2026-10-16 07:49:56,594 | INFO | [337/525] NI
+2026-10-16 07:49:57,040 | INFO | [338/525] NKE
+2026-10-16 07:49:57,468 | INFO | [339/525] NOC
+2026-10-16 07:49:57,897 | INFO | [340/525] NOW
+2026-10-16 07:49:58,316 | INFO | [341/525] NRG
+2026-10-16 07:49:58,746 | INFO | [342/525] NSC
+2026-10-16 07:49:59,178 | INFO | [343/525] NTAP
+2026-10-16 07:49:59,627 | INFO | [344/525] NTRS
+2026-10-16 07:50:00,134 | INFO | [345/525] NUE
+2026-10-16 07:50:00,567 | INFO | [346/525] NVDA
+2026-10-16 07:50:00,998 | INFO | [347/525] NVR
+2026-10-16 07:50:01,430 | INFO | [348/525] NWS
+2026-10-16 07:50:01,849 | INFO | [349/525] NWSA
+2026-10-16 07:50:02,248 | INFO | [350/525] NXPI
+2026-10-16 07:50:02,668 | INFO | [351/525] O
+2026-10-16 07:50:03,128 | INFO | [352/525] ODFL
+2026-10-16 07:50:03,565 | INFO | [353/525] OKE
+2026-10-16 07:50:03,998 | INFO | [354/525] OMC
+2026-10-16 07:50:04,434 | INFO | [355/525] ON
+2026-10-16 07:50:04,852 | INFO | [356/525] ORCL
+2026-10-16 07:50:05,253 | INFO | [357/525] ORLY
+2026-10-16 07:50:05,837 | INFO | [358/525] OTIS
+2026-10-16 07:50:06,314 | INFO | [359/525] OXY
+2026-10-16 07:50:06,761 | INFO | [360/525] P
+2026-10-16 07:50:07,175 | INFO | [361/525] PANW
+2026-10-16 07:50:07,607 | INFO | [362/525] PAYX
+2026-10-16 07:50:08,020 | INFO | [363/525] PCAR
+2026-10-16 07:50:08,454 | INFO | [364/525] PCG
+2026-10-16 07:50:08,855 | INFO | [365/525] PDD
+2026-10-16 07:50:09,282 | INFO | [366/525] PEG
+2026-10-16 07:50:09,788 | INFO | [367/525] PEP
+2026-10-16 07:50:10,235 | INFO | [368/525] PFE
+2026-10-16 07:50:10,648 | INFO | [369/525] PFG
+2026-10-16 07:50:11,060 | INFO | [370/525] PG
+2026-10-16 07:50:11,490 | INFO | [371/525] PGR
+2026-10-16 07:50:11,940 | INFO | [372/525] PH
+2026-10-16 07:50:12,374 | INFO | [373/525] PHM
+2026-10-16 07:50:12,820 | INFO | [374/525] PKG
+2026-10-16 07:50:13,250 | INFO | [375/525] PLD
+2026-10-16 07:50:13,668 | INFO | [376/525] PLTR
+2026-10-16 07:50:14,113 | INFO | [377/525] PM
+2026-10-16 07:50:14,560 | INFO | [378/525] PNC
+2026-10-16 07:50:14,976 | INFO | [379/525] PNR
+2026-10-16 07:50:15,437 | INFO | [380/525] PNW
+2026-10-16 07:50:15,838 | INFO | [381/525] PODD
+2026-10-16 07:50:16,285 | INFO | [382/525] PPG
+2026-10-16 07:50:16,712 | INFO | [383/525] PPL
+2026-10-16 07:50:17,131 | INFO | [384/525] PRU
+2026-10-16 07:50:17,547 | INFO | [385/525] PSA
+2026-10-16 07:50:17,964 | INFO | [386/525] PSX
+2026-10-16 07:50:18,383 | INFO | [387/525] PTC
+2026-10-16 07:50:18,810 | INFO | [388/525] PWR
+2026-10-16 07:50:19,230 | INFO | [389/525] PYPL
+2026-10-16 07:50:19,723 | INFO | [390/525] Q
+2026-10-16 07:50:20,137 | INFO | [391/525] QCOM
+2026-10-16 07:50:20,552 | INFO | [392/525] RCL
+2026-10-16 07:50:20,952 | INFO | [393/525] RDDT
+2026-10-16 07:50:21,399 | INFO | [394/525] REG
+2026-10-16 07:50:21,796 | INFO | [395/525] REGN
+2026-10-16 07:50:22,213 | INFO | [396/525] RF
+2026-10-16 07:50:22,659 | INFO | [397/525] RJF
+2026-10-16 07:50:23,078 | INFO | [398/525] RL
+2026-10-16 07:50:23,511 | INFO | [399/525] RMD
+2026-10-16 07:50:23,940 | INFO | [400/525] ROK
+2026-10-16 07:50:24,371 | INFO | [401/525] ROL
+2026-10-16 07:50:24,801 | INFO | [402/525] ROP
+2026-10-16 07:50:25,235 | INFO | [403/525] ROST
+2026-10-16 07:50:25,639 | INFO | [404/525] RSG
+2026-10-16 07:50:26,054 | INFO | [405/525] RTX
+2026-10-16 07:50:26,498 | INFO | [406/525] RVTY
+2026-10-16 07:50:26,940 | INFO | [407/525] SBAC
+2026-10-16 07:50:27,386 | INFO | [408/525] SBUX
+2026-10-16 07:50:27,802 | INFO | [409/525] SCHW
+2026-10-16 07:50:28,293 | INFO | [410/525] SHOP
+2026-10-16 07:50:28,707 | INFO | [411/525] SHW
+2026-10-16 07:50:29,155 | INFO | [412/525] SJM
+2026-10-16 07:50:29,600 | INFO | [413/525] SKYD
+2026-10-16 07:50:30,182 | INFO | [414/525] SLB
+2026-10-16 07:50:30,750 | INFO | [415/525] SMCI
+2026-10-16 07:50:31,167 | INFO | [416/525] SNA
+2026-10-16 07:50:31,642 | INFO | [417/525] SNDK
+2026-10-16 07:50:32,075 | INFO | [418/525] SNPS
+2026-10-16 07:50:32,510 | INFO | [419/525] SO
+2026-10-16 07:50:32,975 | INFO | [420/525] SOLV
+2026-10-16 07:50:33,458 | INFO | [421/525] SPG
+2026-10-16 07:50:33,935 | INFO | [422/525] SPGI
+2026-10-16 07:50:34,353 | INFO | [423/525] SRE
+2026-10-16 07:50:34,800 | INFO | [424/525] STE
+2026-10-16 07:50:35,230 | INFO | [425/525] STLD
+2026-10-16 07:50:35,661 | INFO | [426/525] STT
+2026-10-16 07:50:36,108 | INFO | [427/525] STX
+2026-10-16 07:50:36,559 | INFO | [428/525] STZ
+2026-10-16 07:50:36,995 | INFO | [429/525] SW
+2026-10-16 07:50:37,428 | INFO | [430/525] SWK
+2026-10-16 07:50:37,892 | INFO | [431/525] SWKS
+2026-10-16 07:50:38,356 | INFO | [432/525] SYF
+2026-10-16 07:50:38,803 | INFO | [433/525] SYK
+2026-10-16 07:50:39,250 | INFO | [434/525] SYY
+2026-10-16 07:50:39,682 | INFO | [435/525] T
+2026-10-16 07:50:40,099 | INFO | [436/525] TDG
+2026-10-16 07:50:40,517 | INFO | [437/525] TDY
+2026-10-16 07:50:40,934 | INFO | [438/525] TECH
+2026-10-16 07:50:41,366 | INFO | [439/525] TEL
+2026-10-16 07:50:41,797 | INFO | [440/525] TER
+2026-10-16 07:50:42,229 | INFO | [441/525] TFC
+2026-10-16 07:50:42,644 | INFO | [442/525] TGT
+2026-10-16 07:50:43,073 | INFO | [443/525] TJX
+2026-10-16 07:50:43,504 | INFO | [444/525] TKO
+2026-10-16 07:50:43,936 | INFO | [445/525] TLT
+2026-10-16 07:50:44,158 | ERROR | Download failed for TLT: table tlt_daily_bars has no column named source
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 337, in main
+    upsert_bars(con, CFG["tlt_bars_table"], df)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 144, in upsert_bars
+    con.executemany(sql, list(df.itertuples(index=False, name=None)))
+sqlite3.OperationalError: table tlt_daily_bars has no column named source
+2026-10-16 07:50:44,159 | INFO | [446/525] TMO
+2026-10-16 07:50:44,614 | INFO | [447/525] TMUS
+2026-10-16 07:50:45,027 | INFO | [448/525] TPL
+2026-10-16 07:50:45,445 | INFO | [449/525] TPR
+2026-10-16 07:50:45,875 | INFO | [450/525] TRGP
+2026-10-16 07:50:46,370 | INFO | [451/525] TRI
+2026-10-16 07:50:46,803 | INFO | [452/525] TRMB
+2026-10-16 07:50:47,237 | INFO | [453/525] TROW
+2026-10-16 07:50:47,653 | INFO | [454/525] TRV
+2026-10-16 07:50:48,072 | INFO | [455/525] TSCO
+2026-10-16 07:50:48,517 | INFO | [456/525] TSLA
+2026-10-16 07:50:48,937 | INFO | [457/525] TSN
+2026-10-16 07:50:49,354 | INFO | [458/525] TT
+2026-10-16 07:50:49,848 | INFO | [459/525] TTWO
+2026-10-16 07:50:50,327 | INFO | [460/525] TWLO
+2026-10-16 07:50:50,759 | INFO | [461/525] TXN
+2026-10-16 07:50:51,173 | INFO | [462/525] TXT
+2026-10-16 07:50:51,618 | INFO | [463/525] TYL
+2026-10-16 07:50:52,066 | INFO | [464/525] UAL
+2026-10-16 07:50:52,498 | INFO | [465/525] UBER
+2026-10-16 07:50:52,948 | INFO | [466/525] UDR
+2026-10-16 07:50:53,379 | INFO | [467/525] UHS
+2026-10-16 07:50:53,799 | INFO | [468/525] ULTA
+2026-10-16 07:50:54,218 | INFO | [469/525] UNH
+2026-10-16 07:50:54,653 | INFO | [470/525] UNP
+2026-10-16 07:50:55,131 | INFO | [471/525] UPS
+2026-10-16 07:50:55,609 | INFO | [472/525] URI
+2026-10-16 07:50:56,026 | INFO | [473/525] USB
+2026-10-16 07:50:56,459 | INFO | [474/525] V
+2026-10-16 07:50:56,870 | INFO | [475/525] VEEV
+2026-10-16 07:50:57,343 | INFO | [476/525] VICI
+2026-10-16 07:50:57,772 | INFO | [477/525] VLO
+2026-10-16 07:50:58,172 | INFO | [478/525] VLTO
+2026-10-16 07:50:58,601 | INFO | [479/525] VMC
+2026-10-16 07:50:59,048 | INFO | [480/525] VMRK
+2026-10-16 07:50:59,481 | INFO | [481/525] VRSK
+2026-10-16 07:50:59,931 | INFO | [482/525] VRSN
+2026-10-16 07:51:00,365 | INFO | [483/525] VRT
+2026-10-16 07:51:00,812 | INFO | [484/525] VRTX
+2026-10-16 07:51:01,243 | INFO | [485/525] VST
+2026-10-16 07:51:01,674 | INFO | [486/525] VTR
+2026-10-16 07:51:02,152 | INFO | [487/525] VTRS
+2026-10-16 07:51:02,570 | INFO | [488/525] VZ
+2026-10-16 07:51:02,989 | INFO | [489/525] WAB
+2026-10-16 07:51:03,450 | INFO | [490/525] WAT
+2026-10-16 07:51:03,867 | INFO | [491/525] WBD
+2026-10-16 07:51:03,927 | ERROR | Error 200, reqId 981: No security definition has been found for the request, contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 07:51:03,928 | WARNING | Unknown contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 07:51:03,928 | ERROR | Download failed for WBD: No security definition for WBD
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 331, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 101, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for WBD
+2026-10-16 07:51:03,929 | INFO | [492/525] WDAY
+2026-10-16 07:51:04,358 | INFO | [493/525] WDC
+2026-10-16 07:51:04,806 | INFO | [494/525] WEC
+2026-10-16 07:51:05,349 | INFO | [495/525] WELL
+2026-10-16 07:51:05,795 | INFO | [496/525] WFC
+2026-10-16 07:51:06,226 | INFO | [497/525] WM
+2026-10-16 07:51:06,661 | INFO | [498/525] WMB
+2026-10-16 07:51:07,110 | INFO | [499/525] WMT
+2026-10-16 07:51:07,528 | INFO | [500/525] WRB
+2026-10-16 07:51:07,976 | INFO | [501/525] WSM
+2026-10-16 07:51:08,391 | INFO | [502/525] WST
+2026-10-16 07:51:08,821 | INFO | [503/525] WTW
+2026-10-16 07:51:09,255 | INFO | [504/525] WY
+2026-10-16 07:51:09,656 | INFO | [505/525] WYNN
+2026-10-16 07:51:10,088 | INFO | [506/525] XEL
+2026-10-16 07:51:10,520 | INFO | [507/525] XLB
+2026-10-16 07:51:10,948 | INFO | [508/525] XLC
+2026-10-16 07:51:11,349 | INFO | [509/525] XLE
+2026-10-16 07:51:11,779 | INFO | [510/525] XLF
+2026-10-16 07:51:12,227 | INFO | [511/525] XLI
+2026-10-16 07:51:12,645 | INFO | [512/525] XLK
+2026-10-16 07:51:13,094 | INFO | [513/525] XLP
+2026-10-16 07:51:13,526 | INFO | [514/525] XLRE
+2026-10-16 07:51:13,989 | INFO | [515/525] XLU
+2026-10-16 07:51:14,418 | INFO | [516/525] XLV
+2026-10-16 07:51:14,834 | INFO | [517/525] XLY
+2026-10-16 07:51:15,279 | INFO | [518/525] XOM
+2026-10-16 07:51:15,725 | INFO | [519/525] XYL
+2026-10-16 07:51:16,159 | INFO | [520/525] XYZ
+2026-10-16 07:51:16,696 | INFO | [521/525] YUM
+2026-10-16 07:51:17,127 | INFO | [522/525] ZBH
+2026-10-16 07:51:17,540 | INFO | [523/525] ZBRA
+2026-10-16 07:51:17,970 | INFO | [524/525] ZS
+2026-10-16 07:51:18,386 | INFO | [525/525] ZTS
+2026-10-16 07:51:18,817 | INFO | Disconnecting from 127.0.0.1:7497, 69.7 kB sent in 1055 messages, 1.03 MB received in 2125 messages, session time 231 s.
+2026-10-16 07:51:18,817 | INFO | Disconnecting
+2026-10-16 07:51:19,064 | ERROR | EOD automation failed
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 358, in <module>
+    main()
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 344, in main
+    refresh_relationships(con, universes)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 258, in refresh_relationships
+    tlt = load_symbol_bars(con, CFG["bars_table"], CFG["reference_symbol"], 320)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 162, in load_symbol_bars
+    df["bar_date"] = pd.to_datetime(df["bar_date"])
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 1072, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\tools\datetimes.py", line 469, in _array_strptime_with_fallback
+    result, tz_out = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "pandas/_libs/tslibs/strptime.pyx", line 501, in pandas._libs.tslibs.strptime.array_strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 451, in pandas._libs.tslibs.strptime.array_strptime
+  File "pandas/_libs/tslibs/strptime.pyx", line 583, in pandas._libs.tslibs.strptime._parse_with_format
+ValueError: time data "2026-10-15" doesn't match format "%Y%m%d", at position 197. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2026-10-16 09:55:09,517 | INFO | ========================================================================
+2026-10-16 09:55:09,518 | INFO | TLT EOD AUTOMATION VERSION: 1.3-date-debug
+2026-10-16 09:55:09,519 | INFO | RUNNING SCRIPT FILE: C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py
+2026-10-16 09:55:09,519 | INFO | PYTHON EXECUTABLE: C:\Users\Trader\AppData\Local\Programs\Python\Python310\python.exe
+2026-10-16 09:55:09,519 | INFO | ========================================================================
+2026-10-16 09:59:48,182 | ERROR | EOD automation failed
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 463, in <module>
+    main()
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 414, in main
+    normalize_existing_bar_dates(con, CFG["bars_table"])
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 163, in normalize_existing_bar_dates
+    con.executemany(
+sqlite3.IntegrityError: UNIQUE constraint failed: relationship_bars_day.symbol, relationship_bars_day.bar_date
+2026-10-16 10:17:13,549 | INFO | ========================================================================
+2026-10-16 10:17:13,549 | INFO | TLT EOD AUTOMATION VERSION: 1.4-date-dedup
+2026-10-16 10:17:13,550 | INFO | RUNNING SCRIPT FILE: C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py
+2026-10-16 10:17:13,551 | INFO | PYTHON EXECUTABLE: C:\Users\Trader\AppData\Local\Programs\Python\Python310\python.exe
+2026-10-16 10:17:13,551 | INFO | ========================================================================
+2026-10-16 10:28:07,839 | INFO | Date normalization relationship_bars_day: removed 3119 duplicate logical bars; normalized 5219 dates
+2026-10-16 10:28:08,918 | INFO | Date normalization tlt_daily_bars: removed 0 duplicate logical bars; normalized 1260 dates
+2026-10-16 10:28:09,164 | INFO | Pre-download TLT date-parser check passed: 320 rows, 2025-07-10 00:00:00 -> 2026-10-15 00:00:00
+2026-10-16 10:28:09,175 | INFO | Universe size: 525
+2026-10-16 10:28:09,176 | INFO | Connecting to IBKR 127.0.0.1:7497 clientId=91
+2026-10-16 10:28:09,177 | INFO | Connecting to 127.0.0.1:7497 with clientId 91...
+2026-10-16 10:28:09,178 | INFO | Connected
+2026-10-16 10:28:09,181 | INFO | Logged on to server version 176
+2026-10-16 10:28:09,192 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2026-10-16 10:28:09,193 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-10-16 10:28:09,193 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-10-16 10:28:09,196 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2026-10-16 10:28:09,196 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:jfarm
+2026-10-16 10:28:09,196 | INFO | API connection ready
+2026-10-16 10:28:09,197 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2026-10-16 10:28:09,197 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:eufarm
+2026-10-16 10:28:09,198 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2026-10-16 10:28:09,198 | INFO | Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-10-16 10:28:09,198 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2026-10-16 10:28:09,199 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2026-10-16 10:28:09,199 | INFO | Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-10-16 10:28:09,200 | INFO | Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefnj
+2026-10-16 10:28:09,200 | INFO | position: Position(account='DUO201927', contract=Stock(conId=10291, symbol='NKE', exchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, avgCost=62.953)
+2026-10-16 10:28:09,201 | INFO | position: Position(account='DUO201927', contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, avgCost=305.69875)
+2026-10-16 10:28:09,202 | INFO | position: Position(account='DUO201927', contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, avgCost=237.41795)
+2026-10-16 10:28:09,202 | INFO | position: Position(account='DUO201927', contract=Stock(conId=459113767, symbol='AI', exchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, avgCost=10.775)
+2026-10-16 10:28:09,315 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=459113767, symbol='AI', right='0', primaryExchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, marketPrice=12.10599995, marketValue=12106.0, averageCost=10.775, unrealizedPNL=1331.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:28:09,316 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, marketPrice=1.398129, marketValue=6990.64, averageCost=305.69875, unrealizedPNL=-8294.29, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:28:09,317 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.75, marketValue=750.0, averageCost=237.41795, unrealizedPNL=-1624.18, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:28:09,317 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=10291, symbol='NKE', right='0', primaryExchange='NYSE', currency='USD', localSymbol='NKE', tradingClass='NKE'), position=250.0, marketPrice=37.526001, marketValue=9381.5, averageCost=62.953, unrealizedPNL=-6356.75, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:28:09,417 | INFO | Synchronization complete
+2026-10-16 10:28:09,417 | INFO | [1/525] A
+2026-10-16 10:28:09,863 | INFO | [2/525] AAPL
+2026-10-16 10:28:10,356 | INFO | [3/525] ABBV
+2026-10-16 10:28:10,986 | INFO | [4/525] ABNB
+2026-10-16 10:28:11,400 | INFO | [5/525] ABT
+2026-10-16 10:28:11,845 | INFO | [6/525] ACGL
+2026-10-16 10:28:12,262 | INFO | [7/525] ACN
+2026-10-16 10:28:12,708 | INFO | [8/525] ADBE
+2026-10-16 10:28:13,123 | INFO | [9/525] ADI
+2026-10-16 10:28:13,537 | INFO | [10/525] ADM
+2026-10-16 10:28:13,983 | INFO | [11/525] ADP
+2026-10-16 10:28:14,413 | INFO | [12/525] ADSK
+2026-10-16 10:28:14,858 | INFO | [13/525] AEE
+2026-10-16 10:28:15,304 | INFO | [14/525] AEP
+2026-10-16 10:28:15,749 | INFO | [15/525] AES
+2026-10-16 10:28:16,226 | INFO | [16/525] AFL
+2026-10-16 10:28:16,656 | INFO | [17/525] AIG
+2026-10-16 10:28:17,086 | INFO | [18/525] AIZ
+2026-10-16 10:28:17,530 | INFO | [19/525] AJG
+2026-10-16 10:28:17,973 | INFO | [20/525] AKAM
+2026-10-16 10:28:18,468 | INFO | [21/525] ALB
+2026-10-16 10:28:18,931 | INFO | [22/525] ALGN
+2026-10-16 10:28:19,347 | INFO | [23/525] ALL
+2026-10-16 10:28:19,776 | INFO | [24/525] ALLE
+2026-10-16 10:28:20,187 | INFO | [25/525] ALNY
+2026-10-16 10:28:20,712 | INFO | [26/525] AMAT
+2026-10-16 10:28:21,175 | INFO | [27/525] AMCR
+2026-10-16 10:28:21,623 | INFO | [28/525] AMD
+2026-10-16 10:28:22,083 | INFO | [29/525] AME
+2026-10-16 10:28:22,559 | INFO | [30/525] AMGN
+2026-10-16 10:28:23,011 | INFO | [31/525] AMP
+2026-10-16 10:28:23,442 | INFO | [32/525] AMT
+2026-10-16 10:28:23,904 | INFO | [33/525] AMZN
+2026-10-16 10:28:24,321 | INFO | [34/525] ANET
+2026-10-16 10:28:24,778 | INFO | [35/525] AON
+2026-10-16 10:28:25,221 | INFO | [36/525] AOS
+2026-10-16 10:28:25,730 | INFO | [37/525] APA
+2026-10-16 10:28:26,210 | INFO | [38/525] APD
+2026-10-16 10:28:26,671 | INFO | [39/525] APH
+2026-10-16 10:28:27,138 | INFO | [40/525] APO
+2026-10-16 10:28:27,644 | INFO | [41/525] APP
+2026-10-16 10:28:28,093 | INFO | [42/525] APTV
+2026-10-16 10:28:28,539 | INFO | [43/525] ARE
+2026-10-16 10:28:28,968 | INFO | [44/525] ARES
+2026-10-16 10:28:29,447 | INFO | [45/525] ARM
+2026-10-16 10:28:29,891 | INFO | [46/525] ASML
+2026-10-16 10:28:30,338 | INFO | [47/525] ATO
+2026-10-16 10:28:30,751 | INFO | [48/525] AVGO
+2026-10-16 10:28:31,166 | INFO | [49/525] AVY
+2026-10-16 10:28:31,595 | INFO | [50/525] AWK
+2026-10-16 10:28:32,044 | INFO | [51/525] AXON
+2026-10-16 10:28:32,463 | INFO | [52/525] AXP
+2026-10-16 10:28:32,899 | INFO | [53/525] AZO
+2026-10-16 10:28:33,327 | INFO | [54/525] BA
+2026-10-16 10:28:33,758 | INFO | [55/525] BAC
+2026-10-16 10:28:34,201 | INFO | [56/525] BALL
+2026-10-16 10:28:34,620 | INFO | [57/525] BAX
+2026-10-16 10:28:35,067 | INFO | [58/525] BBY
+2026-10-16 10:28:35,547 | INFO | [59/525] BDX
+2026-10-16 10:28:36,008 | INFO | [60/525] BE
+2026-10-16 10:28:36,466 | INFO | [61/525] BEN
+2026-10-16 10:28:36,896 | INFO | [62/525] BF.B
+2026-10-16 10:28:36,969 | ERROR | Error 200, reqId 125: No security definition has been found for the request, contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 10:28:36,970 | WARNING | Unknown contract: Stock(symbol='BF.B', exchange='SMART', currency='USD')
+2026-10-16 10:28:36,971 | ERROR | Download failed for BF.B: No security definition for BF.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 504, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 105, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BF.B
+2026-10-16 10:28:36,972 | INFO | [63/525] BG
+2026-10-16 10:28:37,401 | INFO | [64/525] BIIB
+2026-10-16 10:28:37,835 | INFO | [65/525] BKNG
+2026-10-16 10:28:38,291 | INFO | [66/525] BKR
+2026-10-16 10:28:38,720 | INFO | [67/525] BLK
+2026-10-16 10:28:39,180 | INFO | [68/525] BMY
+2026-10-16 10:28:39,614 | INFO | [69/525] BNY
+2026-10-16 10:28:40,111 | INFO | [70/525] BR
+2026-10-16 10:28:40,558 | INFO | [71/525] BRK.B
+2026-10-16 10:28:40,623 | ERROR | Error 200, reqId 142: No security definition has been found for the request, contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 10:28:40,623 | WARNING | Unknown contract: Stock(symbol='BRK.B', exchange='SMART', currency='USD')
+2026-10-16 10:28:40,624 | ERROR | Download failed for BRK.B: No security definition for BRK.B
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 504, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 105, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for BRK.B
+2026-10-16 10:28:40,625 | INFO | [72/525] BRO
+2026-10-16 10:28:41,049 | INFO | [73/525] BSX
+2026-10-16 10:28:41,477 | INFO | [74/525] BX
+2026-10-16 10:28:41,921 | INFO | [75/525] BXP
+2026-10-16 10:28:42,353 | INFO | [76/525] C
+2026-10-16 10:28:42,769 | INFO | [77/525] CAH
+2026-10-16 10:28:43,234 | INFO | [78/525] CARR
+2026-10-16 10:28:43,709 | INFO | [79/525] CASY
+2026-10-16 10:28:44,144 | INFO | [80/525] CAT
+2026-10-16 10:28:44,563 | INFO | [81/525] CB
+2026-10-16 10:28:45,009 | INFO | [82/525] CBOE
+2026-10-16 10:28:45,426 | INFO | [83/525] CBRE
+2026-10-16 10:28:45,840 | INFO | [84/525] CCEP
+2026-10-16 10:28:46,256 | INFO | [85/525] CCI
+2026-10-16 10:28:46,702 | INFO | [86/525] CCL
+2026-10-16 10:28:47,166 | INFO | [87/525] CDNS
+2026-10-16 10:28:47,567 | INFO | [88/525] CDW
+2026-10-16 10:28:47,994 | INFO | [89/525] CEG
+2026-10-16 10:28:48,423 | INFO | [90/525] CF
+2026-10-16 10:28:48,826 | INFO | [91/525] CFG
+2026-10-16 10:28:49,256 | INFO | [92/525] CHD
+2026-10-16 10:28:49,688 | INFO | [93/525] CHRW
+2026-10-16 10:28:50,160 | INFO | [94/525] CHTR
+2026-10-16 10:28:50,609 | INFO | [95/525] CI
+2026-10-16 10:28:51,008 | INFO | [96/525] CIEN
+2026-10-16 10:28:51,450 | INFO | [97/525] CINF
+2026-10-16 10:28:51,910 | INFO | [98/525] CL
+2026-10-16 10:28:52,358 | INFO | [99/525] CLX
+2026-10-16 10:28:52,895 | INFO | [100/525] CMCSA
+2026-10-16 10:28:53,328 | INFO | [101/525] CME
+2026-10-16 10:28:53,747 | INFO | [102/525] CMG
+2026-10-16 10:28:54,145 | INFO | [103/525] CMI
+2026-10-16 10:28:54,606 | INFO | [104/525] CMS
+2026-10-16 10:28:55,051 | INFO | [105/525] CNC
+2026-10-16 10:28:55,568 | INFO | [106/525] CNP
+2026-10-16 10:28:56,051 | INFO | [107/525] COF
+2026-10-16 10:28:56,510 | INFO | [108/525] COHR
+2026-10-16 10:28:56,956 | INFO | [109/525] COIN
+2026-10-16 10:28:57,389 | INFO | [110/525] COO
+2026-10-16 10:28:57,823 | INFO | [111/525] COP
+2026-10-16 10:28:58,270 | INFO | [112/525] COR
+2026-10-16 10:28:58,687 | INFO | [113/525] COST
+2026-10-16 10:28:59,101 | INFO | [114/525] CPAY
+2026-10-16 10:28:59,517 | INFO | [115/525] CPRT
+2026-10-16 10:28:59,977 | INFO | [116/525] CPT
+2026-10-16 10:29:00,380 | INFO | [117/525] CRH
+2026-10-16 10:29:00,823 | INFO | [118/525] CRL
+2026-10-16 10:29:01,253 | INFO | [119/525] CRM
+2026-10-16 10:29:01,762 | INFO | [120/525] CRWD
+2026-10-16 10:29:02,174 | INFO | [121/525] CSCO
+2026-10-16 10:29:02,683 | INFO | [122/525] CSGP
+2026-10-16 10:29:03,157 | INFO | [123/525] CSX
+2026-10-16 10:29:03,606 | INFO | [124/525] CTAS
+2026-10-16 10:29:04,050 | INFO | [125/525] CTSH
+2026-10-16 10:29:04,510 | INFO | [126/525] CVNA
+2026-10-16 10:29:05,017 | INFO | [127/525] CVS
+2026-10-16 10:29:05,435 | INFO | [128/525] CVX
+2026-10-16 10:29:05,882 | INFO | [129/525] D
+2026-10-16 10:29:06,311 | INFO | [130/525] DAL
+2026-10-16 10:29:06,760 | INFO | [131/525] DASH
+2026-10-16 10:29:07,175 | INFO | [132/525] DD
+2026-10-16 10:29:07,623 | INFO | [133/525] DDOG
+2026-10-16 10:29:08,192 | INFO | [134/525] DE
+2026-10-16 10:29:08,623 | INFO | [135/525] DECK
+2026-10-16 10:29:09,148 | INFO | [136/525] DELL
+2026-10-16 10:29:09,563 | INFO | [137/525] DG
+2026-10-16 10:29:09,996 | INFO | [138/525] DGX
+2026-10-16 10:29:10,429 | INFO | [139/525] DHI
+2026-10-16 10:29:10,906 | INFO | [140/525] DHR
+2026-10-16 10:29:11,319 | INFO | [141/525] DIS
+2026-10-16 10:29:11,765 | INFO | [142/525] DLR
+2026-10-16 10:29:12,180 | INFO | [143/525] DLTR
+2026-10-16 10:29:12,629 | INFO | [144/525] DOC
+2026-10-16 10:29:13,029 | INFO | [145/525] DOV
+2026-10-16 10:29:13,443 | INFO | [146/525] DOW
+2026-10-16 10:29:13,859 | INFO | [147/525] DPZ
+2026-10-16 10:29:14,304 | INFO | [148/525] DRI
+2026-10-16 10:29:14,749 | INFO | [149/525] DTE
+2026-10-16 10:29:15,169 | INFO | [150/525] DUK
+2026-10-16 10:29:15,615 | INFO | [151/525] DVA
+2026-10-16 10:29:16,094 | INFO | [152/525] DVN
+2026-10-16 10:29:16,511 | INFO | [153/525] DXCM
+2026-10-16 10:29:16,975 | INFO | [154/525] EBAY
+2026-10-16 10:29:17,438 | INFO | [155/525] ECHO
+2026-10-16 10:29:17,897 | INFO | [156/525] ECL
+2026-10-16 10:29:18,113 | INFO | updatePortfolio: PortfolioItem(contract=Stock(conId=459113767, symbol='AI', right='0', primaryExchange='NYSE', currency='USD', localSymbol='AI', tradingClass='AI'), position=1000.0, marketPrice=12.0039997, marketValue=12004.0, averageCost=10.775, unrealizedPNL=1229.0, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:29:18,114 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728822325, symbol='AI', lastTradeDateOrContractMonth='20270115', strike=12.5, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='AI    270115C00012500', tradingClass='AI'), position=50.0, marketPrice=1.3320881, marketValue=6660.44, averageCost=305.69875, unrealizedPNL=-8624.5, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:29:18,115 | INFO | updatePortfolio: PortfolioItem(contract=Option(conId=728899125, symbol='KHC', lastTradeDateOrContractMonth='20270115', strike=25.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='KHC   270115C00025000', tradingClass='KHC'), position=10.0, marketPrice=0.7487367, marketValue=748.74, averageCost=237.41795, unrealizedPNL=-1625.44, realizedPNL=0.0, account='DUO201927')
+2026-10-16 10:29:18,482 | INFO | [157/525] ED
+2026-10-16 10:29:18,916 | INFO | [158/525] EFX
+2026-10-16 10:29:19,376 | INFO | [159/525] EG
+2026-10-16 10:29:19,857 | INFO | [160/525] EIX
+2026-10-16 10:29:20,289 | INFO | [161/525] EL
+2026-10-16 10:29:20,718 | INFO | [162/525] ELV
+2026-10-16 10:29:21,148 | INFO | [163/525] EME
+2026-10-16 10:29:21,614 | INFO | [164/525] EMR
+2026-10-16 10:29:22,045 | INFO | [165/525] EOG
+2026-10-16 10:29:22,479 | INFO | [166/525] EQIX
+2026-10-16 10:29:22,910 | INFO | [167/525] EQT
+2026-10-16 10:29:23,324 | INFO | [168/525] ERIE
+2026-10-16 10:29:23,766 | INFO | [169/525] ES
+2026-10-16 10:29:24,179 | INFO | [170/525] ESS
+2026-10-16 10:29:24,611 | INFO | [171/525] ETN
+2026-10-16 10:29:25,027 | INFO | [172/525] ETR
+2026-10-16 10:29:25,535 | INFO | [173/525] EVRG
+2026-10-16 10:29:25,949 | INFO | [174/525] EW
+2026-10-16 10:29:26,408 | INFO | [175/525] EXC
+2026-10-16 10:29:26,872 | INFO | [176/525] EXE
+2026-10-16 10:29:27,323 | INFO | [177/525] EXPD
+2026-10-16 10:29:27,752 | INFO | [178/525] EXPE
+2026-10-16 10:29:28,196 | INFO | [179/525] EXR
+2026-10-16 10:29:28,656 | INFO | [180/525] F
+2026-10-16 10:29:29,177 | INFO | [181/525] FANG
+2026-10-16 10:29:29,627 | INFO | [182/525] FAST
+2026-10-16 10:29:30,058 | INFO | [183/525] FCX
+2026-10-16 10:29:30,488 | INFO | [184/525] FDS
+2026-10-16 10:29:30,901 | INFO | [185/525] FDX
+2026-10-16 10:29:31,332 | INFO | [186/525] FE
+2026-10-16 10:29:31,796 | INFO | [187/525] FER
+2026-10-16 10:29:32,229 | INFO | [188/525] FERG
+2026-10-16 10:29:32,659 | INFO | [189/525] FFIV
+2026-10-16 10:29:33,089 | INFO | [190/525] FICO
+2026-10-16 10:29:33,507 | INFO | [191/525] FIS
+2026-10-16 10:29:34,001 | INFO | [192/525] FISV
+2026-10-16 10:29:34,566 | INFO | [193/525] FITB
+2026-10-16 10:29:35,072 | INFO | [194/525] FIX
+2026-10-16 10:29:35,548 | INFO | [195/525] FLEX
+2026-10-16 10:29:35,976 | INFO | [196/525] FOX
+2026-10-16 10:29:36,407 | INFO | [197/525] FOXA
+2026-10-16 10:29:36,821 | INFO | [198/525] FRT
+2026-10-16 10:29:37,253 | INFO | [199/525] FSLR
+2026-10-16 10:29:37,683 | INFO | [200/525] FTNT
+2026-10-16 10:29:38,131 | INFO | [201/525] FTV
+2026-10-16 10:29:38,559 | INFO | [202/525] GD
+2026-10-16 10:29:39,001 | INFO | [203/525] GDDY
+2026-10-16 10:29:39,449 | INFO | [204/525] GE
+2026-10-16 10:29:39,880 | INFO | [205/525] GEHC
+2026-10-16 10:29:40,298 | INFO | [206/525] GEN
+2026-10-16 10:29:40,730 | INFO | [207/525] GEV
+2026-10-16 10:29:41,239 | INFO | [208/525] GILD
+2026-10-16 10:29:41,733 | INFO | [209/525] GIS
+2026-10-16 10:29:42,209 | INFO | [210/525] GL
+2026-10-16 10:29:42,627 | INFO | [211/525] GLW
+2026-10-16 10:29:43,075 | INFO | [212/525] GM
+2026-10-16 10:29:43,523 | INFO | [213/525] GNRC
+2026-10-16 10:29:43,972 | INFO | [214/525] GOOG
+2026-10-16 10:29:44,520 | INFO | [215/525] GOOGL
+2026-10-16 10:29:44,975 | INFO | [216/525] GPC
+2026-10-16 10:29:45,435 | INFO | [217/525] GPN
+2026-10-16 10:29:45,876 | INFO | [218/525] GRMN
+2026-10-16 10:29:46,309 | INFO | [219/525] GS
+2026-10-16 10:29:46,753 | INFO | [220/525] GWW
+2026-10-16 10:29:47,267 | INFO | [221/525] HAL
+2026-10-16 10:29:47,684 | INFO | [222/525] HAS
+2026-10-16 10:29:48,128 | INFO | [223/525] HBAN
+2026-10-16 10:29:48,544 | INFO | [224/525] HCA
+2026-10-16 10:29:49,038 | INFO | [225/525] HD
+2026-10-16 10:29:49,469 | INFO | [226/525] HIG
+2026-10-16 10:29:49,889 | INFO | [227/525] HII
+2026-10-16 10:29:50,302 | INFO | [228/525] HLT
+2026-10-16 10:29:50,861 | INFO | [229/525] HON
+2026-10-16 10:29:51,308 | INFO | [230/525] HOOD
+2026-10-16 10:29:51,832 | INFO | [231/525] HPE
+2026-10-16 10:29:52,292 | INFO | [232/525] HPQ
+2026-10-16 10:29:52,768 | INFO | [233/525] HRL
+2026-10-16 10:29:53,168 | INFO | [234/525] HSIC
+2026-10-16 10:29:53,616 | INFO | [235/525] HST
+2026-10-16 10:29:54,050 | INFO | [236/525] HSY
+2026-10-16 10:29:54,493 | INFO | [237/525] HUBB
+2026-10-16 10:29:54,925 | INFO | [238/525] HUM
+2026-10-16 10:29:55,371 | INFO | [239/525] HWM
+2026-10-16 10:29:55,829 | INFO | [240/525] IBKR
+2026-10-16 10:29:56,274 | INFO | [241/525] IBM
+2026-10-16 10:29:56,714 | INFO | [242/525] ICE
+2026-10-16 10:29:57,169 | INFO | [243/525] IDXX
+2026-10-16 10:29:57,628 | INFO | [244/525] IEX
+2026-10-16 10:29:58,127 | INFO | [245/525] IFF
+2026-10-16 10:29:58,687 | INFO | [246/525] ILMN
+2026-10-16 10:29:59,132 | INFO | [247/525] INCY
+2026-10-16 10:29:59,580 | INFO | [248/525] INSM
+2026-10-16 10:30:00,028 | INFO | [249/525] INTC
+2026-10-16 10:30:00,490 | INFO | [250/525] INTU
+2026-10-16 10:30:00,907 | INFO | [251/525] INVH
+2026-10-16 10:30:01,323 | INFO | [252/525] IP
+2026-10-16 10:30:01,801 | INFO | [253/525] IQV
+2026-10-16 10:30:02,228 | INFO | [254/525] IR
+2026-10-16 10:30:02,722 | INFO | [255/525] IRM
+2026-10-16 10:30:03,155 | INFO | [256/525] ISRG
+2026-10-16 10:30:03,652 | INFO | [257/525] IT
+2026-10-16 10:30:04,067 | INFO | [258/525] ITW
+2026-10-16 10:30:04,512 | INFO | [259/525] IVZ
+2026-10-16 10:30:04,958 | INFO | [260/525] J
+2026-10-16 10:30:05,404 | INFO | [261/525] JBHT
+2026-10-16 10:30:05,832 | INFO | [262/525] JBL
+2026-10-16 10:30:06,265 | INFO | [263/525] JCI
+2026-10-16 10:30:06,679 | INFO | [264/525] JKHY
+2026-10-16 10:30:07,139 | INFO | [265/525] JNJ
+2026-10-16 10:30:07,556 | INFO | [266/525] JPM
+2026-10-16 10:30:08,049 | INFO | [267/525] KDP
+2026-10-16 10:30:08,464 | INFO | [268/525] KEY
+2026-10-16 10:30:08,904 | INFO | [269/525] KEYS
+2026-10-16 10:30:09,334 | INFO | [270/525] KHC
+2026-10-16 10:30:09,764 | INFO | [271/525] KIM
+2026-10-16 10:30:10,256 | INFO | [272/525] KKR
+2026-10-16 10:30:10,673 | INFO | [273/525] KLAC
+2026-10-16 10:30:11,132 | INFO | [274/525] KMB
+2026-10-16 10:30:11,564 | INFO | [275/525] KMI
+2026-10-16 10:30:11,982 | INFO | [276/525] KO
+2026-10-16 10:30:12,611 | INFO | [277/525] KR
+2026-10-16 10:30:13,056 | INFO | [278/525] KVUE
+2026-10-16 10:30:13,482 | INFO | [279/525] L
+2026-10-16 10:30:13,912 | INFO | [280/525] LDOS
+2026-10-16 10:30:14,341 | INFO | [281/525] LEN
+2026-10-16 10:30:14,835 | INFO | [282/525] LH
+2026-10-16 10:30:15,299 | INFO | [283/525] LHX
+2026-10-16 10:30:15,763 | INFO | [284/525] LII
+2026-10-16 10:30:16,193 | INFO | [285/525] LIN
+2026-10-16 10:30:16,656 | INFO | [286/525] LITE
+2026-10-16 10:30:17,129 | INFO | [287/525] LLY
+2026-10-16 10:30:17,560 | INFO | [288/525] LMT
+2026-10-16 10:30:17,990 | INFO | [289/525] LNT
+2026-10-16 10:30:18,406 | INFO | [290/525] LOW
+2026-10-16 10:30:18,821 | INFO | [291/525] LRCX
+2026-10-16 10:30:19,251 | INFO | [292/525] LULU
+2026-10-16 10:30:19,694 | INFO | [293/525] LUV
+2026-10-16 10:30:20,203 | INFO | [294/525] LVS
+2026-10-16 10:30:20,619 | INFO | [295/525] LYB
+2026-10-16 10:30:21,033 | INFO | [296/525] LYV
+2026-10-16 10:30:21,480 | INFO | [297/525] MA
+2026-10-16 10:30:21,926 | INFO | [298/525] MAA
+2026-10-16 10:30:22,373 | INFO | [299/525] MAR
+2026-10-16 10:30:22,805 | INFO | [300/525] MAS
+2026-10-16 10:30:23,222 | INFO | [301/525] MCD
+2026-10-16 10:30:23,636 | INFO | [302/525] MCHP
+2026-10-16 10:30:24,067 | INFO | [303/525] MCK
+2026-10-16 10:30:24,495 | INFO | [304/525] MCO
+2026-10-16 10:30:24,956 | INFO | [305/525] MDLZ
+2026-10-16 10:30:25,386 | INFO | [306/525] MDT
+2026-10-16 10:30:25,892 | INFO | [307/525] MELI
+2026-10-16 10:30:26,322 | INFO | [308/525] MET
+2026-10-16 10:30:26,751 | INFO | [309/525] META
+2026-10-16 10:30:27,218 | INFO | [310/525] MGM
+2026-10-16 10:30:27,666 | INFO | [311/525] MKC
+2026-10-16 10:30:28,095 | INFO | [312/525] MLM
+2026-10-16 10:30:28,553 | INFO | [313/525] MMM
+2026-10-16 10:30:29,012 | INFO | [314/525] MNST
+2026-10-16 10:30:29,470 | INFO | [315/525] MO
+2026-10-16 10:30:29,900 | INFO | [316/525] MOS
+2026-10-16 10:30:30,362 | INFO | [317/525] MPC
+2026-10-16 10:30:30,793 | INFO | [318/525] MPWR
+2026-10-16 10:30:31,226 | INFO | [319/525] MRK
+2026-10-16 10:30:31,833 | INFO | [320/525] MRNA
+2026-10-16 10:30:32,454 | INFO | [321/525] MRSH
+2026-10-16 10:30:33,226 | INFO | [322/525] MRVL
+2026-10-16 10:30:33,840 | INFO | [323/525] MS
+2026-10-16 10:30:34,458 | INFO | [324/525] MSCI
+2026-10-16 10:30:35,044 | INFO | [325/525] MSFT
+2026-10-16 10:30:35,971 | INFO | [326/525] MSI
+2026-10-16 10:30:36,415 | INFO | [327/525] MSTR
+2026-10-16 10:30:36,860 | INFO | [328/525] MTB
+2026-10-16 10:30:37,321 | INFO | [329/525] MTD
+2026-10-16 10:30:37,750 | INFO | [330/525] MU
+2026-10-16 10:30:38,180 | INFO | [331/525] NCLH
+2026-10-16 10:30:38,616 | INFO | [332/525] NDAQ
+2026-10-16 10:30:39,059 | INFO | [333/525] NDSN
+2026-10-16 10:30:39,493 | INFO | [334/525] NEE
+2026-10-16 10:30:39,925 | INFO | [335/525] NEM
+2026-10-16 10:30:40,384 | INFO | [336/525] NFLX
+2026-10-16 10:30:40,817 | INFO | [337/525] NI
+2026-10-16 10:30:41,233 | INFO | [338/525] NKE
+2026-10-16 10:30:41,758 | INFO | [339/525] NOC
+2026-10-16 10:30:42,177 | INFO | [340/525] NOW
+2026-10-16 10:30:42,625 | INFO | [341/525] NRG
+2026-10-16 10:30:43,043 | INFO | [342/525] NSC
+2026-10-16 10:30:43,462 | INFO | [343/525] NTAP
+2026-10-16 10:30:43,910 | INFO | [344/525] NTRS
+2026-10-16 10:30:44,465 | INFO | [345/525] NUE
+2026-10-16 10:30:44,882 | INFO | [346/525] NVDA
+2026-10-16 10:30:45,343 | INFO | [347/525] NVR
+2026-10-16 10:30:45,787 | INFO | [348/525] NWS
+2026-10-16 10:30:46,199 | INFO | [349/525] NWSA
+2026-10-16 10:30:46,627 | INFO | [350/525] NXPI
+2026-10-16 10:30:47,056 | INFO | [351/525] O
+2026-10-16 10:30:47,490 | INFO | [352/525] ODFL
+2026-10-16 10:30:47,936 | INFO | [353/525] OKE
+2026-10-16 10:30:48,356 | INFO | [354/525] OMC
+2026-10-16 10:30:48,831 | INFO | [355/525] ON
+2026-10-16 10:30:49,276 | INFO | [356/525] ORCL
+2026-10-16 10:30:49,709 | INFO | [357/525] ORLY
+2026-10-16 10:30:50,137 | INFO | [358/525] OTIS
+2026-10-16 10:30:50,598 | INFO | [359/525] OXY
+2026-10-16 10:30:51,028 | INFO | [360/525] P
+2026-10-16 10:30:51,472 | INFO | [361/525] PANW
+2026-10-16 10:30:51,906 | INFO | [362/525] PAYX
+2026-10-16 10:30:52,337 | INFO | [363/525] PCAR
+2026-10-16 10:30:52,764 | INFO | [364/525] PCG
+2026-10-16 10:30:53,193 | INFO | [365/525] PDD
+2026-10-16 10:30:53,623 | INFO | [366/525] PEG
+2026-10-16 10:30:54,067 | INFO | [367/525] PEP
+2026-10-16 10:30:54,483 | INFO | [368/525] PFE
+2026-10-16 10:30:54,914 | INFO | [369/525] PFG
+2026-10-16 10:30:55,361 | INFO | [370/525] PG
+2026-10-16 10:30:55,883 | INFO | [371/525] PGR
+2026-10-16 10:30:56,365 | INFO | [372/525] PH
+2026-10-16 10:30:56,797 | INFO | [373/525] PHM
+2026-10-16 10:30:57,239 | INFO | [374/525] PKG
+2026-10-16 10:30:57,655 | INFO | [375/525] PLD
+2026-10-16 10:30:58,084 | INFO | [376/525] PLTR
+2026-10-16 10:30:58,503 | INFO | [377/525] PM
+2026-10-16 10:30:58,950 | INFO | [378/525] PNC
+2026-10-16 10:30:59,399 | INFO | [379/525] PNR
+2026-10-16 10:30:59,829 | INFO | [380/525] PNW
+2026-10-16 10:31:00,291 | INFO | [381/525] PODD
+2026-10-16 10:31:00,720 | INFO | [382/525] PPG
+2026-10-16 10:31:01,181 | INFO | [383/525] PPL
+2026-10-16 10:31:01,765 | INFO | [384/525] PRU
+2026-10-16 10:31:02,214 | INFO | [385/525] PSA
+2026-10-16 10:31:02,646 | INFO | [386/525] PSX
+2026-10-16 10:31:03,103 | INFO | [387/525] PTC
+2026-10-16 10:31:03,563 | INFO | [388/525] PWR
+2026-10-16 10:31:03,996 | INFO | [389/525] PYPL
+2026-10-16 10:31:04,453 | INFO | [390/525] Q
+2026-10-16 10:31:04,886 | INFO | [391/525] QCOM
+2026-10-16 10:31:05,346 | INFO | [392/525] RCL
+2026-10-16 10:31:05,779 | INFO | [393/525] RDDT
+2026-10-16 10:31:06,247 | INFO | [394/525] REG
+2026-10-16 10:31:06,721 | INFO | [395/525] REGN
+2026-10-16 10:31:07,167 | INFO | [396/525] RF
+2026-10-16 10:31:07,627 | INFO | [397/525] RJF
+2026-10-16 10:31:08,056 | INFO | [398/525] RL
+2026-10-16 10:31:08,487 | INFO | [399/525] RMD
+2026-10-16 10:31:08,932 | INFO | [400/525] ROK
+2026-10-16 10:31:09,362 | INFO | [401/525] ROL
+2026-10-16 10:31:09,809 | INFO | [402/525] ROP
+2026-10-16 10:31:10,257 | INFO | [403/525] ROST
+2026-10-16 10:31:10,693 | INFO | [404/525] RSG
+2026-10-16 10:31:11,167 | INFO | [405/525] RTX
+2026-10-16 10:31:11,616 | INFO | [406/525] RVTY
+2026-10-16 10:31:12,045 | INFO | [407/525] SBAC
+2026-10-16 10:31:12,500 | INFO | [408/525] SBUX
+2026-10-16 10:31:12,932 | INFO | [409/525] SCHW
+2026-10-16 10:31:13,395 | INFO | [410/525] SHOP
+2026-10-16 10:31:13,859 | INFO | [411/525] SHW
+2026-10-16 10:31:14,286 | INFO | [412/525] SJM
+2026-10-16 10:31:14,748 | INFO | [413/525] SKYD
+2026-10-16 10:31:15,317 | INFO | [414/525] SLB
+2026-10-16 10:31:15,747 | INFO | [415/525] SMCI
+2026-10-16 10:31:16,209 | INFO | [416/525] SNA
+2026-10-16 10:31:16,685 | INFO | [417/525] SNDK
+2026-10-16 10:31:17,117 | INFO | [418/525] SNPS
+2026-10-16 10:31:17,563 | INFO | [419/525] SO
+2026-10-16 10:31:17,992 | INFO | [420/525] SOLV
+2026-10-16 10:31:18,424 | INFO | [421/525] SPG
+2026-10-16 10:31:18,861 | INFO | [422/525] SPGI
+2026-10-16 10:31:19,306 | INFO | [423/525] SRE
+2026-10-16 10:31:19,735 | INFO | [424/525] STE
+2026-10-16 10:31:20,164 | INFO | [425/525] STLD
+2026-10-16 10:31:20,582 | INFO | [426/525] STT
+2026-10-16 10:31:21,014 | INFO | [427/525] STX
+2026-10-16 10:31:21,461 | INFO | [428/525] STZ
+2026-10-16 10:31:21,905 | INFO | [429/525] SW
+2026-10-16 10:31:22,353 | INFO | [430/525] SWK
+2026-10-16 10:31:22,810 | INFO | [431/525] SWKS
+2026-10-16 10:31:23,242 | INFO | [432/525] SYF
+2026-10-16 10:31:23,688 | INFO | [433/525] SYK
+2026-10-16 10:31:24,147 | INFO | [434/525] SYY
+2026-10-16 10:31:24,670 | INFO | [435/525] T
+2026-10-16 10:31:25,147 | INFO | [436/525] TDG
+2026-10-16 10:31:25,799 | INFO | [437/525] TDY
+2026-10-16 10:31:26,244 | INFO | [438/525] TECH
+2026-10-16 10:31:26,688 | INFO | [439/525] TEL
+2026-10-16 10:31:27,148 | INFO | [440/525] TER
+2026-10-16 10:31:27,656 | INFO | [441/525] TFC
+2026-10-16 10:31:28,101 | INFO | [442/525] TGT
+2026-10-16 10:31:28,528 | INFO | [443/525] TJX
+2026-10-16 10:31:28,989 | INFO | [444/525] TKO
+2026-10-16 10:31:29,437 | INFO | [445/525] TLT
+2026-10-16 10:31:29,632 | ERROR | Download failed for TLT: table tlt_daily_bars has no column named source
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 510, in main
+    upsert_bars(con, CFG["tlt_bars_table"], df)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 256, in upsert_bars
+    con.executemany(sql, list(df.itertuples(index=False, name=None)))
+sqlite3.OperationalError: table tlt_daily_bars has no column named source
+2026-10-16 10:31:29,633 | INFO | [446/525] TMO
+2026-10-16 10:31:30,081 | INFO | [447/525] TMUS
+2026-10-16 10:31:30,544 | INFO | [448/525] TPL
+2026-10-16 10:31:30,973 | INFO | [449/525] TPR
+2026-10-16 10:31:31,408 | INFO | [450/525] TRGP
+2026-10-16 10:31:31,826 | INFO | [451/525] TRI
+2026-10-16 10:31:32,241 | INFO | [452/525] TRMB
+2026-10-16 10:31:32,683 | INFO | [453/525] TROW
+2026-10-16 10:31:33,113 | INFO | [454/525] TRV
+2026-10-16 10:31:33,592 | INFO | [455/525] TSCO
+2026-10-16 10:31:34,023 | INFO | [456/525] TSLA
+2026-10-16 10:31:34,474 | INFO | [457/525] TSN
+2026-10-16 10:31:34,893 | INFO | [458/525] TT
+2026-10-16 10:31:35,336 | INFO | [459/525] TTWO
+2026-10-16 10:31:35,797 | INFO | [460/525] TWLO
+2026-10-16 10:31:36,230 | INFO | [461/525] TXN
+2026-10-16 10:31:36,689 | INFO | [462/525] TXT
+2026-10-16 10:31:37,148 | INFO | [463/525] TYL
+2026-10-16 10:31:37,637 | INFO | [464/525] UAL
+2026-10-16 10:31:38,101 | INFO | [465/525] UBER
+2026-10-16 10:31:38,513 | INFO | [466/525] UDR
+2026-10-16 10:31:38,958 | INFO | [467/525] UHS
+2026-10-16 10:31:39,405 | INFO | [468/525] ULTA
+2026-10-16 10:31:39,822 | INFO | [469/525] UNH
+2026-10-16 10:31:40,254 | INFO | [470/525] UNP
+2026-10-16 10:31:40,683 | INFO | [471/525] UPS
+2026-10-16 10:31:41,097 | INFO | [472/525] URI
+2026-10-16 10:31:41,501 | INFO | [473/525] USB
+2026-10-16 10:31:41,917 | INFO | [474/525] V
+2026-10-16 10:31:42,351 | INFO | [475/525] VEEV
+2026-10-16 10:31:42,765 | INFO | [476/525] VICI
+2026-10-16 10:31:43,196 | INFO | [477/525] VLO
+2026-10-16 10:31:43,641 | INFO | [478/525] VLTO
+2026-10-16 10:31:44,052 | INFO | [479/525] VMC
+2026-10-16 10:31:44,450 | INFO | [480/525] VMRK
+2026-10-16 10:31:44,896 | INFO | [481/525] VRSK
+2026-10-16 10:31:45,372 | INFO | [482/525] VRSN
+2026-10-16 10:31:45,800 | INFO | [483/525] VRT
+2026-10-16 10:31:46,242 | INFO | [484/525] VRTX
+2026-10-16 10:31:46,690 | INFO | [485/525] VST
+2026-10-16 10:31:47,121 | INFO | [486/525] VTR
+2026-10-16 10:31:47,540 | INFO | [487/525] VTRS
+2026-10-16 10:31:47,985 | INFO | [488/525] VZ
+2026-10-16 10:31:48,413 | INFO | [489/525] WAB
+2026-10-16 10:31:48,828 | INFO | [490/525] WAT
+2026-10-16 10:31:49,274 | INFO | [491/525] WBD
+2026-10-16 10:31:49,332 | ERROR | Error 200, reqId 981: No security definition has been found for the request, contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 10:31:49,332 | WARNING | Unknown contract: Stock(symbol='WBD', exchange='SMART', currency='USD')
+2026-10-16 10:31:49,334 | ERROR | Download failed for WBD: No security definition for WBD
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 504, in main
+    df = fetch_daily(ib, symbol)
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 105, in fetch_daily
+    raise RuntimeError(f"No security definition for {symbol}")
+RuntimeError: No security definition for WBD
+2026-10-16 10:31:49,335 | INFO | [492/525] WDAY
+2026-10-16 10:31:49,763 | INFO | [493/525] WDC
+2026-10-16 10:31:50,195 | INFO | [494/525] WEC
+2026-10-16 10:31:50,672 | INFO | [495/525] WELL
+2026-10-16 10:31:51,106 | INFO | [496/525] WFC
+2026-10-16 10:31:51,555 | INFO | [497/525] WM
+2026-10-16 10:31:51,986 | INFO | [498/525] WMB
+2026-10-16 10:31:52,400 | INFO | [499/525] WMT
+2026-10-16 10:31:52,831 | INFO | [500/525] WRB
+2026-10-16 10:31:53,275 | INFO | [501/525] WSM
+2026-10-16 10:31:53,690 | INFO | [502/525] WST
+2026-10-16 10:31:54,164 | INFO | [503/525] WTW
+2026-10-16 10:31:54,592 | INFO | [504/525] WY
+2026-10-16 10:31:55,055 | INFO | [505/525] WYNN
+2026-10-16 10:31:55,509 | INFO | [506/525] XEL
+2026-10-16 10:31:56,077 | INFO | [507/525] XLB
+2026-10-16 10:31:56,523 | INFO | [508/525] XLC
+2026-10-16 10:31:56,955 | INFO | [509/525] XLE
+2026-10-16 10:31:57,390 | INFO | [510/525] XLF
+2026-10-16 10:31:57,856 | INFO | [511/525] XLI
+2026-10-16 10:31:58,288 | INFO | [512/525] XLK
+2026-10-16 10:31:58,733 | INFO | [513/525] XLP
+2026-10-16 10:31:59,162 | INFO | [514/525] XLRE
+2026-10-16 10:31:59,583 | INFO | [515/525] XLU
+2026-10-16 10:32:00,043 | INFO | [516/525] XLV
+2026-10-16 10:32:00,460 | INFO | [517/525] XLY
+2026-10-16 10:32:00,887 | INFO | [518/525] XOM
+2026-10-16 10:32:01,331 | INFO | [519/525] XYL
+2026-10-16 10:32:01,844 | INFO | [520/525] XYZ
+2026-10-16 10:32:02,289 | INFO | [521/525] YUM
+2026-10-16 10:32:02,738 | INFO | [522/525] ZBH
+2026-10-16 10:32:03,186 | INFO | [523/525] ZBRA
+2026-10-16 10:32:03,629 | INFO | [524/525] ZS
+2026-10-16 10:32:04,079 | INFO | [525/525] ZTS
+2026-10-16 10:32:04,526 | INFO | Disconnecting from 127.0.0.1:7497, 69.7 kB sent in 1055 messages, 1.03 MB received in 2197 messages, session time 235 s.
+2026-10-16 10:32:04,526 | INFO | Disconnecting
+2026-10-16 10:32:04,794 | INFO | Refreshing spy_holdings_tlt_relationship_day (500 tickers)
+2026-10-16 10:34:20,549 | INFO | Refreshing qqq_holdings_tlt_relationship_day (100 tickers)
+2026-10-16 10:34:48,912 | INFO | Refreshing dow30_tlt_relationship_day (30 tickers)
+2026-10-16 10:34:57,404 | INFO | Refreshing spdr11_tlt_relationship_day (11 tickers)
+2026-10-16 10:35:00,427 | INFO | Analysis step disabled: TLT daily pivot refresh
+2026-10-16 10:35:05,884 | ERROR | EOD automation failed
+Traceback (most recent call last):
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 531, in <module>
+    main()
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 525, in main
+    git_push(Path(CFG["cloud_repo"]))
+  File "C:\Keystone\Trader-Dashboard\Daily Automation\eod_refresh_and_push.py", line 455, in git_push
+    subprocess.run(["git", "add", "."], cwd=repo, check=True)
+  File "C:\Users\Trader\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'add', '.']' returned non-zero exit status 128.
